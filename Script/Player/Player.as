@@ -97,6 +97,9 @@ class APlayer:ACharacter
     UFUNCTION(BlueprintEvent)
     void SetupCamera(){}
 
+    UFUNCTION(BlueprintEvent)
+    void UpdateResources(){}
+
     UFUNCTION(BlueprintOverride)
     void BeginPlay()
     {
@@ -108,6 +111,8 @@ class APlayer:ACharacter
         ScriptInputComponent.BindAction(n"Sprint", EInputEvent::IE_Released, FInputActionHandlerDynamicSignature(this, n"StopSprinting"));
 
         SprintTimerHandle=System::SetTimer(this,n"UpdateSprintTime",0.01f,true);
+
+         SprintTimerHandle=System::SetTimer(this,n"UpdateResources",0.1f,true);
 
          CharacterMovement.MaxWalkSpeed = DefaultSprintSpeed;
          SetupCamera();
