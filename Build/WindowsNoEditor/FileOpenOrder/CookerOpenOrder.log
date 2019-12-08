@@ -1,0 +1,824 @@
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/README.uasset" 0
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Mesh/UE4_Mannequin_Skeleton.uasset" 1
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AimOffsets/Hands_Center.uasset" 2
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AimOffsets/Hands_Down.uasset" 3
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AimOffsets/Hands_Left.uasset" 4
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AimOffsets/Hands_LeftDown.uasset" 5
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AimOffsets/Hands_LeftUp.uasset" 6
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AimOffsets/Hands_Right.uasset" 7
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AimOffsets/Hands_RightDown.uasset" 8
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AimOffsets/Hands_RightUp.uasset" 9
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AimOffsets/Hands_Up.uasset" 10
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AnimationSequances/Idle_Hands.uasset" 11
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AimOffsets/Hands_AO.uasset" 12
+"../../../Engine/Content/EditorBlueprintResources/StandardMacros.uasset" 13
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/Other/E_BuildTypes.uasset" 14
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/Other/S_GridSave.uasset" 15
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/BuildGrids/BP_MasterGrid.uasset" 16
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AnimationSequances/Jump_Land_Hands.uasset" 17
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AnimationSequances/Jump_Loop_Hands.uasset" 18
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AnimationSequances/Jump_Start_Hands.uasset" 19
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AnimationSequances/Jog_Bwd_Hands.uasset" 20
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AnimationSequances/Jog_BwdR_Hands.uasset" 21
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AnimationSequances/Jog_Fwd_Hands.uasset" 22
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AnimationSequances/Jog_FwdL_Hands.uasset" 23
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AnimationSequances/Jog_Lt_Hands.uasset" 24
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AnimationSequances/Jog_Rt_Hands.uasset" 25
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AnimationSequances/Sprint_Fwd_Hands.uasset" 26
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/BlendSpaces/BS_Jog_Hands.uasset" 27
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AnimationBlueprints/FP_Anim.uasset" 28
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Animations/AnimationBlueprints/TP_Anim.uasset" 29
+"../../../Engine/Content/EditorBlueprintResources/ActorMacros.uasset" 30
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/BuildGrids/BP_DoorGrid.uasset" 31
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/BuildGrids/BP_WindowGrid.uasset" 32
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Meshes/T_Placeholder_BC.uasset" 33
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Meshes/T_Placeholder_BC1.uasset" 34
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Meshes/T_Placeholder_N.uasset" 35
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/M_BasicMasterMaterial.uasset" 36
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/DoorFrameStone/T_DoorFrame_ARM_01.uasset" 37
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/DoorFrameStone/T_DoorFrame_BC_01.uasset" 38
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/DoorFrameStone/T_WindowFrame_N_01.uasset" 39
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_DoorFrame_Stone_01.uasset" 40
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_DoorFrame_Stone_01.uasset" 41
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/BuildObjects/BP_DoorFrame_01.uasset" 42
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WindowFrameStone/T_WindowFrame_Stone_ARM_01.uasset" 43
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WindowFrameStone/T_WindowFrame_Stone_BC_01.uasset" 44
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WindowFrameStone/T_WindowFrame_Stone_N_01.uasset" 45
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_WindowFrame_Stone_01.uasset" 46
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_WindowFrame_Stone_01.uasset" 47
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/BuildObjects/BP_WindowFrame_01.uasset" 48
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/Other/BuildingInterface.uasset" 49
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/Other/S_ResourceCost.uasset" 50
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/Other/S_BuildingCost.uasset" 51
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/Other/S_Build_Part_Info.uasset" 52
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/DoorWood/T_Door_Wood_ARM_01.uasset" 53
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/DoorWood/T_Door_Wood_BC_01.uasset" 54
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/DoorWood/T_Door_Wood_N_01.uasset" 55
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_Door_Wood_01.uasset" 56
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Door_Wood_01.uasset" 57
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/BuildObjects/OpenableDoor.uasset" 58
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WindowWood/Window_01_-_Default_BaseColor.uasset" 59
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WindowWood/Window_01_-_Default_Normal.uasset" 60
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WindowWood/Window_01_-_Default_OcclusionRoughnessMetallic.uasset" 61
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_Window_Wood_01.uasset" 62
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Window_Door_L_Wood_01.uasset" 63
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Window_Door_R_Wood_01.uasset" 64
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Window_Frame_Wood_01.uasset" 65
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/BuildObjects/OpenableWindow.uasset" 66
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/Other/E_SegmentType.uasset" 67
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Sounds/S_UI_Click.uasset" 68
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_Door_Icon.uasset" 69
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_DoorFrame_Icon_UI.uasset" 70
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_Floor_Icon_UI.uasset" 71
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_Foundation_Icon_UI.uasset" 72
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_FoundationStairs_Icon_UI.uasset" 73
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_Piller_Icon_UI.uasset" 74
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_Stairs_L_Icon_UI.uasset" 75
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_Stairs_U_Icon_UI.uasset" 76
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_Wall_Icon_UI.uasset" 77
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_Window_Icon_UI.uasset" 78
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_WindowFrame_Icon_UI.uasset" 79
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/UI/T_120_Unselected_UI.uasset" 80
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/UI/T_180_Selected_UI.uasset" 81
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/UI/T_180_Unselected_UI.uasset" 82
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/HUD/MasterSegment.uasset" 83
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/MasterResource.uasset" 84
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Gradient/SphereGradient-2D.uasset" 85
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/UI/T_CircularMask.uasset" 86
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/M_ProgressCircle.uasset" 87
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MI_ProgressCircle.uasset" 88
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/HUD/Inventory/ItemInfo.uasset" 89
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/HUD/Inventory/Inventory.uasset" 90
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/UI/E_Icon.uasset" 91
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/UI/Interact_Icon.uasset" 92
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/HUD/BuildingHUD.uasset" 93
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/HUD/MasterRadialMenu.uasset" 94
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/HUD/MiscSegment.uasset" 95
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_Back_Icon_UI.uasset" 96
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_More_Icon_UI.uasset" 97
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_Plot_Pole_Icon.uasset" 98
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/UI/T_Center_UI.uasset" 99
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/UI/T_Selected_UI.uasset" 100
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/UI/T_Unselected_UI.uasset" 101
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/HUD/BuildingMenuPage2.uasset" 102
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/HUD/BuildingMenu.uasset" 103
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_Add_Icon_UI.uasset" 104
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_Clear_Icon_UI.uasset" 105
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_Demolish_Icon_UI.uasset" 106
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/HUD/PlotPoleMenu.uasset" 107
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Meshes/T_Plot_Pole_ARM_01.uasset" 108
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Meshes/T_Plot_Pole_BC_01.uasset" 109
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Meshes/T_Plot_Pole_N_01.uasset" 110
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_Plot_Pole_01.uasset" 111
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/Other/SM_Plot_Pole_01.uasset" 112
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/BuildObjects/PlotPole.uasset" 113
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Opacity/CameraDepthFade.uasset" 114
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_M.uasset" 115
+"../../../Engine/Content/EngineMaterials/T_Default_Material_Grid_N.uasset" 116
+"../../../Engine/Content/EngineMaterials/WorldGridMaterial.uasset" 117
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/FoundationStairsStone/T_Stone_Stairs_ARM_01.uasset" 118
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/FoundationStairsStone/T_Stone_Stairs_BC_01.uasset" 119
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/FoundationStairsStone/T_Stone_Stairs_N_01.uasset" 120
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_FoundationStairs_Stone_01.uasset" 121
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/DM_Stone_Doorframe_01.uasset" 122
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/DoorFrameWood/T_DoorFrame_Wood_ARM_01.uasset" 123
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/DoorFrameWood/T_DoorFrame_Wood_BC_01.uasset" 124
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/DoorFrameWood/T_DoorFrame_Wood_N_01.uasset" 125
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_DoorFrame_Wood_01.uasset" 126
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WindowFrameWood/T_WindowFrame_Wood_ARM_02.uasset" 127
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WindowFrameWood/T_WindowFrame_Wood_BC_02.uasset" 128
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WindowFrameWood/T_WindowFrame_Wood_N_02.uasset" 129
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_WindowFrame_Wood_02.uasset" 130
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WallWood/SM_Wood_Wall_2_ARM_2.uasset" 131
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WallWood/SM_Wood_Wall_2_BC_1.uasset" 132
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WallWood/SM_Wood_Wall_2_N.uasset" 133
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_Piller_Wood_02.uasset" 134
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_DoorFrame_Wood_01.uasset" 135
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/DM_Wood_Doorframe_01.uasset" 136
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Window_01.uasset" 137
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/DM_Wood_Window_01.uasset" 138
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/DoorFrameWood/T_DoorFrame_Wood_ARM_02.uasset" 139
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/DoorFrameWood/T_DoorFrame_Wood_BC_02.uasset" 140
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/DoorFrameWood/T_DoorFrame_Wood_N_02.uasset" 141
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_DoorFrame_Wood_02.uasset" 142
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_DoorFrame_Wood_02.uasset" 143
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_DoorFrame_Wood_02_DM.uasset" 144
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/FloorStone/T_Floor_Stone_ARM_01.uasset" 145
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/FloorStone/T_Floor_Stone_BC_01.uasset" 146
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/FloorStone/T_Floor_Stone_N_01.uasset" 147
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_Floor_Stone_01.uasset" 148
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Floor_Stone_01.uasset" 149
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_Floor_Stone_01_DM.uasset" 150
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/FloorWood/T_Floor_Wood_ARM_01.uasset" 151
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/FloorWood/T_Floor_Wood_BC_01.uasset" 152
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/FloorWood/T_Floor_Wood_N_01.uasset" 153
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_Floor_Wood_01.uasset" 154
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Floor_Wood_01.uasset" 155
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_Floor_Wood_01_DM.uasset" 156
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/FoundationStone/T_Foundation_Stone_ARM_01.uasset" 157
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/FoundationStone/T_Foundation_Stone_BC_01.uasset" 158
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/FoundationStone/T_Foundation_Stone_N_01.uasset" 159
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_Foundation_Stone_01.uasset" 160
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Foundation_Stone_01.uasset" 161
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_Foundation_Stone_01_DM.uasset" 162
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/FoundationWood/T_Foundation_Wood_ARM_01.uasset" 163
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/FoundationWood/T_Foundation_Wood_BC_01.uasset" 164
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/FoundationWood/T_Foundation_Wood_N_01.uasset" 165
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_Foundation_Wood_01.uasset" 166
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Foundation_Wood_01.uasset" 167
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_Foundation_Wood_01_DM.uasset" 168
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/PillerStone/T_Piller_Stone_ARM_01.uasset" 169
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/PillerStone/T_Piller_Stone_BC_01.uasset" 170
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/PillerStone/T_Piller_Stone_N_01.uasset" 171
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_Piller_Stone_01.uasset" 172
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_FoundationStairs_Stone_01.uasset" 173
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_FoundationStairs_Stone_01_DM.uasset" 174
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/StairsWood/T_Stairs_Wood_ARM_01.uasset" 175
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/StairsWood/T_Stairs_Wood_BC_01.uasset" 176
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/StairsWood/T_Stairs_Wood_N_01.uasset" 177
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_Stairs_U_Wood_01.uasset" 178
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_FoundationStairs_Wood_01.uasset" 179
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_FoundationStairs_Wood_01_DM.uasset" 180
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Piller_Stone_01.uasset" 181
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_Piller_Stone_01_DM.uasset" 182
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/PillerWood/SM_Wood_Piller_1_ARM_2.uasset" 183
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/PillerWood/SM_Wood_Piller_1_BC_2.uasset" 184
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/PillerWood/SM_Wood_Piller_1_N_2.uasset" 185
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_Piller_Wood_01.uasset" 186
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Piller_Wood_01.uasset" 187
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_Piller_Wood_01_DM.uasset" 188
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Piller_Wood_02.uasset" 189
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_Piller_Wood_02_DM.uasset" 190
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/StairsStone/T_Stairs_L_Stone_ARM_01.uasset" 191
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/StairsStone/T_Stairs_L_Stone_BC_01.uasset" 192
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/StairsStone/T_Stairs_L_Stone_N_01.uasset" 193
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_Stairs_Stone_01.uasset" 194
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Stairs_L_Stone_01.uasset" 195
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_Stairs_L_Stone_01_DM.uasset" 196
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/StairsLWood/T_Stairs_L_Wood_ARM_01.uasset" 197
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/StairsLWood/T_Stairs_L_Wood_BC_01.uasset" 198
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/StairsLWood/T_Stairs_L_Wood_N_01.uasset" 199
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_Stairs_L_Wood_01.uasset" 200
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Stairs_L_Wood_01.uasset" 201
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_Stairs_L_Wood_01_DM.uasset" 202
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Stairs_U_Wood_01.uasset" 203
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_Stairs_U_Wood_01_DM.uasset" 204
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/StairsUStone/T_Stairs_U_Stone_ARM_01.uasset" 205
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/StairsUStone/T_Stairs_U_Stone_BC_01.uasset" 206
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/StairsUStone/T_Stairs_U_Stone_N_01.uasset" 207
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_Stairs_U_Stone_01.uasset" 208
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Stone_U_Stairs_01.uasset" 209
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_Stone_U_Stairs_01_DM.uasset" 210
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WallStone/T_Wall_Stone_ARM_01.uasset" 211
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WallStone/T_Wall_Stone_BC_01.uasset" 212
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WallStone/T_Wall_Stone_N_01.uasset" 213
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_Wall_Stone_01.uasset" 214
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Wall_Stone_01.uasset" 215
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_Wall_Stone_01_DM.uasset" 216
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WallWood/T_Wall_Wood_ARM_01.uasset" 217
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WallWood/T_Wall_Wood_BC_01.uasset" 218
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WallWood/T_Wall_Wood_N_01.uasset" 219
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_Wall_Wood_01.uasset" 220
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Wall_Wood_01.uasset" 221
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_Wall_Wood_01_DM.uasset" 222
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WallWood/T_Wall_Wood_ARM_02.uasset" 223
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WallWood/T_Wall_Wood_BC_02.uasset" 224
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WallWood/T_Wall_Wood_N_02.uasset" 225
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_Wall_Wood_02.uasset" 226
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_Wall_Wood_02.uasset" 227
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_Wall_Wood_02_DM.uasset" 228
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_WindowFrame_Stone_01_DM.uasset" 229
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WindowFrameWood/T_WindowFrame_Wood_ARM_01.uasset" 230
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WindowFrameWood/T_WindowFrame_Wood_BC_01.uasset" 231
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/WindowFrameWood/T_WindowFrame_Wood_N_01.uasset" 232
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_WindowFrame_Wood_01.uasset" 233
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_WindowFrame_Wood_01.uasset" 234
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_WindowFrame_Wood_01_DM.uasset" 235
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/BuildParts/SM_WindowFrame_Wood_02.uasset" 236
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_WindowFrame_Wood_02_DM.uasset" 237
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/BuildTypes/BuildPartData.uasset" 238
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/Other/BuildingFunctions.uasset" 239
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_Repair_Icon_UI.uasset" 240
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_Upgrade_Icon_UI.uasset" 241
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/UI/T_120_Selected_UI.uasset" 242
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/HUD/BuildingOptionsMenu.uasset" 243
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/BuildObjects/BP_MasterBuildPart.uasset" 244
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/Other/BuildingMacros.uasset" 245
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/BuildGrids/BP_CeilingGrid.uasset" 246
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/BuildGrids/BP_FoundationGrid.uasset" 247
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/BuildGrids/BP_PillerGrid.uasset" 248
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/BuildGrids/BP_StairsGrid.uasset" 249
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/BuildGrids/BP_WallGrid.uasset" 250
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/M_Disabled.uasset" 251
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/M_Enabled.uasset" 252
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/Other/E_Preview.uasset" 253
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Sounds/S_Build_Sound.uasset" 254
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/BuildTypes/BP_BuildMaster.uasset" 255
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/Other/E_DeleteMode.uasset" 256
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/Components/PlayerBuildingComponent.uasset" 257
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/Other/Enums/E_CameraView.uasset" 258
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BlendAngleCorrectedNormals.uasset" 259
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_NormalBlend.uasset" 260
+"../../../Engine/Content/Functions/MaterialLayerFunctions/MatLayerBlend_Simple.uasset" 261
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_D.uasset" 262
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Materials/MaterialLayers/T_ML_Rubber_Blue_01_N.uasset" 263
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Materials/MaterialLayers/ML_GlossyBlack_Latex_UE4.uasset" 264
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige.uasset" 265
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Textures/UE4_LOGO_CARD.uasset" 266
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Materials/MaterialLayers/ML_Plastic_Shiny_Beige_LOGO.uasset" 267
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Materials/MaterialLayers/T_ML_Aluminum01.uasset" 268
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Materials/MaterialLayers/T_ML_Aluminum01_N.uasset" 269
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Materials/MaterialLayers/ML_SoftMetal_UE4.uasset" 270
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Textures/UE4_Mannequin__normals.uasset" 271
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Textures/UE4_Mannequin_MAT_MASKA.uasset" 272
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Materials/M_UE4Man_Body.uasset" 273
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Textures/UE4Man_Logo_N.uasset" 274
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Materials/M_UE4Man_ChestLogo.uasset" 275
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Mesh/SK_Mannequin_PhysicsAsset.uasset" 276
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Mesh/SK_Mannequin.uasset" 277
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Mesh/SK_Mannequin_Arms_Physics.uasset" 278
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Character/Mesh/SK_Mannequin_Arms.uasset" 279
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingCharacter.uasset" 280
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingGameMode.uasset" 281
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/Other/E_ResourceType.uasset" 282
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/Other/E_SelectedMesh.uasset" 283
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/Other/S_ItemCost.uasset" 284
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/Other/E_BuildMenuType.uasset" 285
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/HUD/BuildMenuSegment.uasset" 286
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/HUD/BuildPartHealth.uasset" 287
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/HUD/HoveredEventWidget.uasset" 288
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/HUD/MiscMenu.uasset" 289
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/HUD/NewWidgetBlueprint.uasset" 290
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/M_CubeMaterial.uasset" 291
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/Wood/T_Wood_ARM_01.uasset" 292
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/Wood/T_Wood_BC_01.uasset" 293
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/Wood/T_Wood_N_01.uasset" 294
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/MaterialInstances/MI_Log.uasset" 295
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/DM_Wood_Door_01.uasset" 296
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_Window_Door_L_Wood_01_DM.uasset" 297
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_Window_Door_R_Wood_01_DM.uasset" 298
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/DestructableMeshes/SM_Window_Frame_Wood_01_DM.uasset" 299
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_All_Icon.uasset" 300
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_Tools_Icon.uasset" 301
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/Stone/SM_Stone_Wall_Clean_BC.uasset" 302
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/NewBuildParts/Stone/SM_Stone_Wall_Clean_N.uasset" 303
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/UI/T_90_Selected_UI.uasset" 304
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/UI/T_90_Unselected_UI.uasset" 305
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Blueprints/S_SuperGridGroup.uasset" 306
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Blueprints/SuperGridAssetInterface.uasset" 307
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/Templates/T_SGGroup.uasset" 308
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Blueprints/SuperGrid_Group.uasset" 309
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat3Components.uasset" 310
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat3.uasset" 311
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Sign.uasset" 312
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Round.uasset" 313
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/VectorLength.uasset" 314
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/ObjectScale.uasset" 315
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Functions/Basic/BreakSet.uasset" 316
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Functions/Basic/MakeSet.uasset" 317
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Functions/Basic/Roughness.uasset" 318
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Functions/Texture/Dye_SingleColor.uasset" 319
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_BasicGrid_M.uasset" 320
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Functions/Texture/Tex_SimpleGrid.uasset" 321
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Functions/UV/UV_ObjectScalable.uasset" 322
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Functions/UV/UV_SetupGrid.uasset" 323
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_BasicGrid_N.uasset" 324
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Base/M_SuperGrid_SingleColor.uasset" 325
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Grids/M_SuperGrid_DefaultBlack.uasset" 326
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/Templates/T_SGLogo.uasset" 327
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Blueprints/SuperGrid_Master.uasset" 328
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Functions/Texture/Dye_4ColorBasic.uasset" 329
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Functions/UV/UV_WorldScalable.uasset" 330
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Functions/UV/UV_CustomTexture.uasset" 331
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_Panels_M.uasset" 332
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_Panels_N.uasset" 333
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Base/M_SuperGrid_PanelCustom.uasset" 334
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Advanced/M_SuperGrid_PanelRed.uasset" 335
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Advanced/M_SuperGrid_PanelWhite.uasset" 336
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/Sine_Remapped.uasset" 337
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Functions/UV/UV_CustomPanner.uasset" 338
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_Distortion_N.uasset" 339
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Base/M_SuperGrid_HoloRefract.uasset" 340
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Holographic/M_SuperGrid_HoloRefract_Cyan.uasset" 341
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat2Components.uasset" 342
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/Templates/T_TemplateGrid.uasset" 343
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/Templates/T_TemplateHuman.uasset" 344
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Base/M_SuperGrid_Template.uasset" 345
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Templates/M_SuperGrid_Te_Human.uasset" 346
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Grids/M_SuperGrid_Default.uasset" 347
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_BoxHighRes.uasset" 348
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_Hexagon_M.uasset" 349
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_Plate_M.uasset" 350
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_Plate_N.uasset" 351
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Functions/Basic/Layout_LocalSides.uasset" 352
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Functions/Basic/Layout_WorldSides.uasset" 353
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Base/M_SuperGrid_Orientation.uasset" 354
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_TutOrient.uasset" 355
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Base/M_SuperGrid_Holographic.uasset" 356
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_StoneGrid_M.uasset" 357
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_Holo_Tiny.uasset" 358
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_CustomMetal_M.uasset" 359
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_CustomMetal_N.uasset" 360
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Base/M_SuperGrid_MetalCustom.uasset" 361
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_PlateB.uasset" 362
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_ModernGrid_M.uasset" 363
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_ModernGrid_N.uasset" 364
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Base/M_SuperGrid_Modern.uasset" 365
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_StoneGrid_N.uasset" 366
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_Rocky.uasset" 367
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Particles/P_Sphere.uasset" 368
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Attenuation_Default.uasset" 369
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Attenuation_Distant.uasset" 370
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/distant-explosion-a.uasset" 371
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/distant-explosion-b.uasset" 372
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Cue_Explosions.uasset" 373
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/MechClamp.uasset" 374
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Cue_Lift.uasset" 375
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/MetalStepA.uasset" 376
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Cue_MetalStep.uasset" 377
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Attenuation_Portals.uasset" 378
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/SubOceano_A.uasset" 379
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/SubOceano_B.uasset" 380
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Cue_Portals.uasset" 381
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/ShortPing.uasset" 382
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Cue_Transition.uasset" 383
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/DigitalWhoosh_Soft.uasset" 384
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/MechClank.uasset" 385
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/MetalStepB.uasset" 386
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/PingBing.uasset" 387
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/SimpleChop_A.uasset" 388
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_Utility_Channel.uasset" 389
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/MaterialInstances/M_Utility_Channel_Rough.uasset" 390
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_DotGrid_M.uasset" 391
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_HoloLightFunction.uasset" 392
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_StarParticle.uasset" 393
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_Utility_Grid.uasset" 394
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_Utility_Helper.uasset" 395
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_Utility_Helper_Enabled.uasset" 396
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_Utility_Helper_Inst2.uasset" 397
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_Utility_Refract.uasset" 398
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_Utility_Refract_Inst.uasset" 399
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Misc/Shake_Landing_Normal.uasset" 400
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Misc/Shake_Landing_Weak.uasset" 401
+"../../../Engine/Content/Animation/DefaultAnimCurveCompressionSettings.uasset" 402
+"../../../Engine/Content/ArtTools/RenderToTexture/Meshes/S_1_Unit_Plane.uasset" 403
+"../../../Engine/Content/EngineMaterials/DefaultMaterial.uasset" 404
+"../../../Engine/Content/BasicShapes/Cone.uasset" 405
+"../../../Engine/Content/BasicShapes/Cylinder.uasset" 406
+"../../../Engine/Content/BasicShapes/Plane.uasset" 407
+"../../../Engine/Content/EditorLandscapeResources/DataLayer.uasset" 408
+"../../../Engine/Content/EditorMaterials/GizmoMaterial.uasset" 409
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Toggle.uasset" 410
+"../../../Engine/Content/EditorMaterials/MAT_Groups_Visibility.uasset" 411
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicator.uasset" 412
+"../../../Engine/Content/EditorMaterials/PreviewShadowIndicatorMaterial.uasset" 413
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_ColorTrack.uasset" 414
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Anim.uasset" 415
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_AudioMaster.uasset" 416
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Director.uasset" 417
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Event.uasset" 418
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Fade.uasset" 419
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Float.uasset" 420
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Move.uasset" 421
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Slomo.uasset" 422
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Sound.uasset" 423
+"../../../Engine/Content/EditorMaterials/MatineeGroups/MAT_Groups_Vector.uasset" 424
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_NoImage.uasset" 425
+"../../../Engine/Content/EditorMaterials/ParticleSystems/PSysThumbnail_OOD.uasset" 426
+"../../../Engine/Content/EditorMaterials/Camera/CineMat.uasset" 427
+"../../../Engine/Content/EditorMaterials/Camera/MI_CineMat_Rig.uasset" 428
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Arm.uasset" 429
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Base.uasset" 430
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Body.uasset" 431
+"../../../Engine/Content/EditorMeshes/Camera/SM_CraneRig_Mount.uasset" 432
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Mount.uasset" 433
+"../../../Engine/Content/EditorMeshes/Camera/SM_RailRig_Track.uasset" 434
+"../../../Engine/Content/EditorResources/BSPVertex.uasset" 435
+"../../../Engine/Content/EditorResources/EmptyActor.uasset" 436
+"../../../Engine/Content/EditorResources/S_Actor.uasset" 437
+"../../../Engine/Content/EditorResources/S_Note.uasset" 438
+"../../../Engine/Content/EditorResources/S_Solver.uasset" 439
+"../../../Engine/Content/EditorResources/S_Trigger.uasset" 440
+"../../../Engine/Content/EditorResources/AudioIcons/S_AudioComponent_AutoActivate.uasset" 441
+"../../../Engine/Content/EditorResources/LightIcons/S_LightError.uasset" 442
+"../../../Engine/Content/EditorResources/SequenceRecorder/Countdown.uasset" 443
+"../../../Engine/Content/EditorResources/SequenceRecorder/RecordingIndicator.uasset" 444
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed.uasset" 445
+"../../../Engine/Content/EditorSounds/Notifications/CompileFailed_Cue.uasset" 446
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess.uasset" 447
+"../../../Engine/Content/EditorSounds/Notifications/CompileStart_Cue.uasset" 448
+"../../../Engine/Content/EditorSounds/Notifications/CompileSuccess_Cue.uasset" 449
+"../../../Engine/Content/EngineDamageTypes/DmgTypeBP_Environmental.uasset" 450
+"../../../Engine/Content/EngineDebugMaterials/HeatmapGradient.uasset" 451
+"../../../Engine/Content/EngineDebugMaterials/BoneWeightMaterial.uasset" 452
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial.uasset" 453
+"../../../Engine/Content/EngineDebugMaterials/ClothMaterial_WF.uasset" 454
+"../../../Engine/Content/EngineDebugMaterials/DebugEditorMaterial.uasset" 455
+"../../../Engine/Content/EngineDebugMaterials/DebugMeshMaterial.uasset" 456
+"../../../Engine/Content/EngineDebugMaterials/GeomMaterial.uasset" 457
+"../../../Engine/Content/EngineDebugMaterials/M_SimpleTranslucent.uasset" 458
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/CameraDirectionVector.uasset" 459
+"../../../Engine/Content/EngineDebugMaterials/VolumeToRender.uasset" 460
+"../../../Engine/Content/EngineDebugMaterials/M_VolumeRenderSphereTracePP.uasset" 461
+"../../../Engine/Content/EngineDebugMaterials/WireframeMaterial.uasset" 462
+"../../../Engine/Content/EngineFonts/Faces/RobotoBold.uasset" 463
+"../../../Engine/Content/EngineFonts/Faces/RobotoBoldItalic.uasset" 464
+"../../../Engine/Content/EngineFonts/Faces/RobotoItalic.uasset" 465
+"../../../Engine/Content/EngineFonts/Faces/RobotoLight.uasset" 466
+"../../../Engine/Content/EngineFonts/Faces/RobotoRegular.uasset" 467
+"../../../Engine/Content/EngineFonts/Roboto.uasset" 468
+"../../../Engine/Content/EngineMaterials/BaseFlattenDiffuseMap.uasset" 469
+"../../../Engine/Content/EngineMaterials/BaseFlattenEmissiveMap.uasset" 470
+"../../../Engine/Content/EngineMaterials/BaseFlattenGrayscaleMap.uasset" 471
+"../../../Engine/Content/EngineMaterials/BaseFlattenNormalMap.uasset" 472
+"../../../Engine/Content/EngineMaterials/BaseFlattenMaterial.uasset" 473
+"../../../Engine/Content/EngineMaterials/BlueNoise.uasset" 474
+"../../../Engine/Content/EngineMaterials/DefaultBloomKernel.uasset" 475
+"../../../Engine/Content/EngineMaterials/DefaultBokeh.uasset" 476
+"../../../Engine/Content/EngineMaterials/DefaultDiffuse.uasset" 477
+"../../../Engine/Content/EngineMaterials/DefaultDeferredDecalMaterial.uasset" 478
+"../../../Engine/Content/EngineMaterials/DefaultLightFunctionMaterial.uasset" 479
+"../../../Engine/Content/EngineMaterials/DefaultPostProcessMaterial.uasset" 480
+"../../../Engine/Content/EngineFonts/RobotoDistanceField.uasset" 481
+"../../../Engine/Content/EngineMaterials/DefaultTextMaterialOpaque.uasset" 482
+"../../../Engine/Content/EngineMaterials/DefaultVirtualTextureMaterial.uasset" 483
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid.uasset" 484
+"../../../Engine/Content/EngineMaterials/EditorBrushMaterial.uasset" 485
+"../../../Engine/Content/EngineMaterials/DefaultWhiteGrid_Low.uasset" 486
+"../../../Engine/Content/EngineMaterials/EmissiveMeshMaterial.uasset" 487
+"../../../Engine/Content/EngineMaterials/Good64x64TilingNoiseHighFreq.uasset" 488
+"../../../Engine/Content/EngineMaterials/MiniFont.uasset" 489
+"../../../Engine/Content/EngineMaterials/InvalidLightmapSettings.uasset" 490
+"../../../Engine/Content/EngineMaterials/M_InvalidLightmapSettings.uasset" 491
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/WorldPositionOffset/CameraOffset.uasset" 492
+"../../../Engine/Content/EngineMaterials/PhAT_JointLimitMaterial.uasset" 493
+"../../../Engine/Content/EngineMaterials/PreintegratedSkinBRDF.uasset" 494
+"../../../Engine/Content/EngineMaterials/RemoveSurfaceMaterial.uasset" 495
+"../../../Engine/Content/EngineMaterials/WeightMapPlaceholderTexture.uasset" 496
+"../../../Engine/Content/EngineResources/WhiteSquareTexture.uasset" 497
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough.uasset" 498
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked.uasset" 499
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque.uasset" 500
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Masked_OneSided.uasset" 501
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Opaque_OneSided.uasset" 502
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent.uasset" 503
+"../../../Engine/Content/EngineMaterials/Widget3DPassThrough_Translucent_OneSided.uasset" 504
+"../../../Engine/Content/EngineMeshes/Cylinder.uasset" 505
+"../../../Engine/Content/EngineMeshes/Sphere.uasset" 506
+"../../../Engine/Content/EngineResources/Black.uasset" 507
+"../../../Engine/Content/EngineResources/DefaultTexture.uasset" 508
+"../../../Engine/Content/EngineResources/DefaultTextureCube.uasset" 509
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture2D.uasset" 510
+"../../../Engine/Content/EngineResources/DefaultVolumeTexture.uasset" 511
+"../../../Engine/Content/EngineResources/GradientTexture0.uasset" 512
+"../../../Engine/Content/EngineSounds/Master.uasset" 513
+"../../../Engine/Content/Maps/Templates/Thumbnails/Default.uasset" 514
+"../../../Engine/Content/Maps/Templates/Thumbnails/VR-Basic.uasset" 515
+"../../../Engine/Content/MobileResources/T_MobileControls_texture.uasset" 516
+"../../../Engine/Content/MobileResources/T_MobileMenu2.uasset" 517
+"../../../Engine/Content/MobileResources/HUD/AnalogHat.uasset" 518
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Background.uasset" 519
+"../../../Engine/Content/MobileResources/HUD/VirtualJoystick_Thumb.uasset" 520
+"../../../Engine/Content/MobileResources/HUD/DefaultVirtualJoysticks.uasset" 521
+"../../../Engine/Content/MobileResources/HUD/LeftVirtualJoystickOnly.uasset" 522
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_off.uasset" 523
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton1_on.uasset" 524
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_off.uasset" 525
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton2_on.uasset" 526
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButton3.uasset" 527
+"../../../Engine/Content/MobileResources/HUD/MobileHUDButtonFire.uasset" 528
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad.uasset" 529
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad2.uasset" 530
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionPad3.uasset" 531
+"../../../Engine/Content/MobileResources/HUD/MobileHUDDirectionStick.uasset" 532
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickInner.uasset" 533
+"../../../Engine/Content/MobileResources/HUD/T_Castle_ThumbstickOutter.uasset" 534
+"../../../Engine/Content/Tutorial/ContentIntroCurve.uasset" 535
+"../../../Engine/Content/Tutorial/Basics/LevelEditorAttract.uasset" 536
+"../../../Engine/Content/VREditor/LaserPointer/VR_LaserPower_01.uasset" 537
+"../../../Engine/Content/VREditor/TransformGizmo/TransformGizmoMaterial.uasset" 538
+"../../../Engine/Content/VREditor/TransformGizmo/TranslucentTransformGizmoMaterial.uasset" 539
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxCorner.uasset" 540
+"../../../Engine/Content/VREditor/TransformGizmo/BoundingBoxEdge.uasset" 541
+"../../../Engine/Content/VREditor/TransformGizmo/PlaneTranslationHandle.uasset" 542
+"../../../Engine/Content/VREditor/TransformGizmo/Main.uasset" 543
+"../../../Engine/Content/VREditor/TransformGizmo/Xray.uasset" 544
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Key.uasset" 545
+"../../../Engine/Content/VREditor/TransformGizmo/SM_Sequencer_Node.uasset" 546
+"../../Plugins/2D/Paper2D/Content/PlaceholderTextures/DummySpriteTexture.uasset" 547
+"../../Plugins/2D/Paper2D/Content/DummySprite.uasset" 548
+"../../Plugins/2D/Paper2D/Content/DefaultPaperTerrainMaterial.uasset" 549
+"../../Plugins/2D/Paper2D/Content/DummySpriteTexture.uasset" 550
+"../../Plugins/2D/Paper2D/Content/DefaultSpriteMaterial.uasset" 551
+"../../Plugins/2D/Paper2D/Content/MaskedUnlitSpriteMaterial.uasset" 552
+"../../Plugins/2D/Paper2D/Content/OpaqueUnlitSpriteMaterial.uasset" 553
+"../../Plugins/Runtime/Oculus/OculusVR/Content/OculusMR_RenderTarget.uasset" 554
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/BreakOutFloat4Components.uasset" 555
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/MakeFloat2.uasset" 556
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey.uasset" 557
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_ChromaKey_Lit.uasset" 558
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_OpaqueColoredMaterial.uasset" 559
+"../../Plugins/Runtime/Oculus/OculusVR/Content/Materials/OculusMR_WhiteMaterial.uasset" 560
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingBlueprints/Other/S_BuildingSave.uasset" 561
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/BuildingSave.uasset" 562
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Icons/T_Save_Icon.uasset" 563
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/SaveSystem.uasset" 564
+"../../../Engine/Content/EngineSky/C_Sky_Cloud_Color.uasset" 565
+"../../../Engine/Content/EngineSky/C_Sky_Horizon_Color.uasset" 566
+"../../../Engine/Content/EngineSky/C_Sky_Zenith_Color.uasset" 567
+"../../../Engine/Content/EngineSky/T_Sky_Blue.uasset" 568
+"../../../Engine/Content/EngineSky/T_Sky_Clouds_M.uasset" 569
+"../../../Engine/Content/EngineSky/T_Sky_Stars.uasset" 570
+"../../../Engine/Content/EngineSky/M_Sky_Panning_Clouds2.uasset" 571
+"../../../Engine/Content/EngineSky/SM_SkySphere.uasset" 572
+"../../../Engine/Content/EngineSky/BP_Sky_Sphere.uasset" 573
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/Blueprints/BP_Test.uasset" 574
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Meshes/T_Boulder01_D.uasset" 575
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Meshes/T_Boulder01_N.uasset" 576
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/M_Boulder.uasset" 577
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/Other/SM_Rock_01.uasset" 578
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/RockResource.uasset" 579
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/ConvertFromDiffSpec.uasset" 580
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/FuzzyShading.uasset" 581
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Meshes/T_COG_Foliage_Leaves_AO.uasset" 582
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Meshes/T_COG_Foliage_Leaves_D.uasset" 583
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Meshes/T_COG_Foliage_Leaves_N.uasset" 584
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/M_TreeBranches.uasset" 585
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Shading/PowerToRoughness.uasset" 586
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Meshes/T_Bark01_D.uasset" 587
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Textures/Meshes/T_Bark01_N.uasset" 588
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Materials/M_TreeTrunk.uasset" 589
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Meshes/StaticMeshes/Other/SM_Tree_01.uasset" 590
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Blueprints/TreeResource.uasset" 591
+"../../../Engine/Content/BasicShapes/BasicShapeMaterial.uasset" 592
+"../../../Engine/Content/BasicShapes/Cube.uasset" 593
+"../../../Engine/Content/EngineMaterials/DefaultPhysicalMaterial.uasset" 594
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/PlayerBuildingSystem/Maps/Showcase.umap" 595
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/Overview_BuiltData.uasset" 596
+"../../../Engine/Content/TemplateResources/M_Template_Master.uasset" 597
+"../../../Engine/Content/TemplateResources/MI_Template_BaseGray_03_Metal.uasset" 598
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Advanced/M_SuperGrid_Auto.uasset" 599
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Advanced/M_SuperGrid_ModernDark.uasset" 600
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Advanced/M_SuperGrid_ModernLight.uasset" 601
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Advanced/M_SuperGrid_ModernNeutral.uasset" 602
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Utility/LinearSine.uasset" 603
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Functions/Texture/Dye_MultiColor.uasset" 604
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_DotGrid_N.uasset" 605
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Base/M_SuperGrid_Glowing_MultiColor.uasset" 606
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Basic/M_SuperGrid_GlowingLava.uasset" 607
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Basic/M_SuperGrid_MetalDark.uasset" 608
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Basic/M_SuperGrid_MetalGlow.uasset" 609
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Basic/M_SuperGrid_MetalLight.uasset" 610
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Basic/M_SuperGrid_Soil.uasset" 611
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Basic/M_SuperGrid_Stone.uasset" 612
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Grids/M_SuperGrid_BlackSheet.uasset" 613
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Grids/M_SuperGrid_Chess.uasset" 614
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Base/M_SuperGrid_MultiColor.uasset" 615
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Grids/M_SuperGrid_DangerZone.uasset" 616
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Grids/M_SuperGrid_DoubleColor.uasset" 617
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Grids/M_SuperGrid_White.uasset" 618
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Holographic/M_SuperGrid_Holo_Color.uasset" 619
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Holographic/M_SuperGrid_Holo_Mono.uasset" 620
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_HoloB.uasset" 621
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Misc/PhysMat_Plastic.uasset" 622
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_Red.uasset" 623
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_Arch1.uasset" 624
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_Arch2.uasset" 625
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_Box.uasset" 626
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_BoxCentered.uasset" 627
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_Cone.uasset" 628
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_CornerInner.uasset" 629
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_CylinderBend.uasset" 630
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_CylinderFull.uasset" 631
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_CylinderHalf.uasset" 632
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_CylinderQuarter.uasset" 633
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_Hexagon.uasset" 634
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_Plane.uasset" 635
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_Pyramide.uasset" 636
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_RingFull.uasset" 637
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_RingPiece.uasset" 638
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_RingQuarter.uasset" 639
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_SlantedBox22.uasset" 640
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_SlantedBox35.uasset" 641
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_SlantedBox45.uasset" 642
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_Slope.uasset" 643
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_Stairs.uasset" 644
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_Default.uasset" 645
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Meshes/Utility_CylinderTop.uasset" 646
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Meshes/Utility_ExclamationMark.uasset" 647
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_Utility_Light.uasset" 648
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_LightC.uasset" 649
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Meshes/Utility_GroundBox.uasset" 650
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Meshes/Utility_Helper.uasset" 651
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_LightCone.uasset" 652
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Meshes/Utility_LightCone.uasset" 653
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Meshes/Utility_ShowBox.uasset" 654
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Meshes/Utility_SmallRing.uasset" 655
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/Overview.umap" 656
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Misc/Curve_Transition.uasset" 657
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Misc/HighlightFont.uasset" 658
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Misc/PhysMat_Metal.uasset" 659
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_MetalCyanB.uasset" 660
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_Showcase.uasset" 661
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_SuperGridLogo.uasset" 662
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Blueprints/SuperGrid_DynamicStairs.uasset" 663
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Blueprints/SuperGrid_Wall.uasset" 664
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/SimpleChop_B.uasset" 665
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Cue_DoubleJump.uasset" 666
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Footstep_Stone1_0.uasset" 667
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Footstep_Stone2_0.uasset" 668
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Cue_Footstep.uasset" 669
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Cue_Jump.uasset" 670
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Footstep_Concrete_0.uasset" 671
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Cue_Landing.uasset" 672
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/FirstPerson/BP_FirstPersonCharacter.uasset" 673
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/FirstPerson/BP_FirstPersonController.uasset" 674
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Textures/T_Crosshair_A.uasset" 675
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/FirstPerson/BP_FirstPersonHUD.uasset" 676
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/FirstPerson/BP_FirstPersonGameMode.uasset" 677
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_HoloBlue.uasset" 678
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_MetalNeutral.uasset" 679
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_WhiteA.uasset" 680
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_Ceiling.uasset" 681
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_BigGrid.uasset" 682
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_BlueB.uasset" 683
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_DangerZone.uasset" 684
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_LightB.uasset" 685
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_MetalCyanA.uasset" 686
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_Oriented.uasset" 687
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_RetroA.uasset" 688
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_RetroB.uasset" 689
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_SmallGrid.uasset" 690
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/MaterialInstances/M_Utility_Channel_B_4.uasset" 691
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/MaterialInstances/M_Utility_Channel_R.uasset" 692
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_Conveyor.uasset" 693
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_WhiteB.uasset" 694
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_CornerOuter.uasset" 695
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_Corner.uasset" 696
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_DemoScale.uasset" 697
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Misc/Curve_ElevatorDown.uasset" 698
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Misc/Curve_ElevatorUp.uasset" 699
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_Platform.uasset" 700
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_Elevator.uasset" 701
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_FloatingCube.uasset" 702
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_HoloA.uasset" 703
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_HoloC.uasset" 704
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_LightCone_Red.uasset" 705
+"../../../Engine/Content/BasicShapes/Sphere.uasset" 706
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Attenuation_Orb.uasset" 707
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Cinematic_deep_tremor.uasset" 708
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_FloatingSphere.uasset" 709
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_Floor.uasset" 710
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_LightA.uasset" 711
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_MetalOrange.uasset" 712
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_Lamp.uasset" 713
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_Utility_Helper_Disabled.uasset" 714
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_Utility_LightPulse.uasset" 715
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_Utility_LightPulse_Inst.uasset" 716
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Textures/T_CircleDecal_A.uasset" 717
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_UtilityDecal.uasset" 718
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_UtilityDecal_Disabled.uasset" 719
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_UtilityDecal_Enabled.uasset" 720
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_LearningPoint.uasset" 721
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_LightSphere.uasset" 722
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_BlueA.uasset" 723
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_Platform.uasset" 724
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/PixelInWorldUnits.uasset" 725
+"../../../Engine/Content/Functions/Engine_MaterialFunctions01/Coordinates/WorldUnitsInPixel.uasset" 726
+"../../../Engine/Content/Functions/Engine_MaterialFunctions03/Particles/ParticleDOF.uasset" 727
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_Particles_Lit.uasset" 728
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Textures/T_StarCircle.uasset" 729
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_Utility_StarCircle.uasset" 730
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Particles/P_Star.uasset" 731
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_Utility_FavIcon.uasset" 732
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Meshes/SM_Star.uasset" 733
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_RateStar.uasset" 734
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_ShowCase_B.uasset" 735
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/MaterialInstances/M_Utility_Channel_B.uasset" 736
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/MaterialInstances/M_Utility_Channel_B_2.uasset" 737
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/MaterialInstances/M_Utility_Channel_B_3.uasset" 738
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/MaterialInstances/M_Utility_Channel_G.uasset" 739
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/MaterialInstances/M_Utility_Channel_G_2.uasset" 740
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/MaterialInstances/M_Utility_Channel_G_3.uasset" 741
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/MaterialInstances/M_Utility_Channel_G_4.uasset" 742
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/MaterialInstances/M_Utility_Channel_R_2.uasset" 743
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/MaterialInstances/M_Utility_Channel_R_3.uasset" 744
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/MaterialInstances/M_Utility_Channel_R_4.uasset" 745
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/MaterialInstances/M_Utility_Channel_Rough_2.uasset" 746
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/MaterialInstances/M_Utility_Channel_Rough_3.uasset" 747
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/MaterialInstances/M_Utility_Channel_Rough_4.uasset" 748
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_TextureShowcase.uasset" 749
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_Walls.uasset" 750
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/LevelElements/BP_WallsWindowed.uasset" 751
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/UserInterface/S_UpdateNotes.uasset" 752
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/UserInterface/Update_Notes_11.uasset" 753
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/UserInterface/UpdateNotes_101.uasset" 754
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/UserInterface/UpdateNotes_102.uasset" 755
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/UserInterface/UpdateNotes_111.uasset" 756
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/UserInterface/UpdateNotes_112.uasset" 757
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/UserInterface/W_ChangeLog_Item.uasset" 758
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/UserInterface/W_ChangeLog.uasset" 759
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Blueprints/UserInterface/BP_ChangeLog.uasset" 760
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/StarterTutorial_BuiltData.uasset" 761
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_ConcreteWall_M.uasset" 762
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_ConcreteWall_N.uasset" 763
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_ConcreteWall_R.uasset" 764
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Base/M_SuperGrid_Architectural.uasset" 765
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Base/M_Tutorial.uasset" 766
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_PureBlack.uasset" 767
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/ExampleContent/Textures/flipbook.uasset" 768
+"../../../Engine/Content/Functions/Engine_MaterialFunctions02/Texturing/FlipBook.uasset" 769
+"../../../Engine/Content/EditorResources/T_EditorHelp.uasset" 770
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/M_Tut_DocMaterial.uasset" 771
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_LightPillar.uasset" 772
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_Utility_DemoFloat.uasset" 773
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Advanced/M_SuperGrid_Architectural_Black.uasset" 774
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_Hexagon_N.uasset" 775
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_HexagonRandom.uasset" 776
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Base/M_SuperGrid_Hexagon.uasset" 777
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Advanced/M_SuperGrid_HexagonOrange.uasset" 778
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Advanced/M_SuperGrid_HexagonOrangeC.uasset" 779
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Advanced/M_SuperGrid_HexagonRed.uasset" 780
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Advanced/M_SuperGrid_MetalBar_Dark.uasset" 781
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Advanced/M_SuperGrid_MetalBar_White.uasset" 782
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Advanced/M_SuperGrid_PanelDark.uasset" 783
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Basic/M_SuperGrid_MetalDark3.uasset" 784
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/Templates/T_TemplateBarrel.uasset" 785
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Templates/M_SuperGrid_Barrel.uasset" 786
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/Templates/T_TemplateLlama.uasset" 787
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Templates/M_SuperGrid_Llama.uasset" 788
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_BlackA.uasset" 789
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_BlackB.uasset" 790
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_BlackC.uasset" 791
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_HoloD.uasset" 792
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_LightD.uasset" 793
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_LightE.uasset" 794
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_LightRed.uasset" 795
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_RedB.uasset" 796
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_Tut_Redc.uasset" 797
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_TutHex.uasset" 798
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/MaterialInstances/M_TutHexB.uasset" 799
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_LightColumn.uasset" 800
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_LightColumnRed.uasset" 801
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Textures/T_BasicGridW_M.uasset" 802
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Materials/Palette/Grids/M_SuperGrid_Walkable.uasset" 803
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/StarterPack/Source/Meshes/SuperGrid_Ramp.uasset" 804
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Misc/VF_Turbulance.uasset" 805
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Particles/P_LightPillar.uasset" 806
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_SquareParticleGlow.uasset" 807
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Particles/P_Portal.uasset" 808
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Materials/M_SquareParticle.uasset" 809
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Particles/P_VolumeDust.uasset" 810
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Particles/P_VolumeDustB.uasset" 811
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Attenuation_Ambient.uasset" 812
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Cinematic_deep_rumble.uasset" 813
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/SoundEffects/Erokia_Elementary_Wave.uasset" 814
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Misc/LUT_Chamber102.uasset" 815
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Misc/LUT_CorridorA.uasset" 816
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Misc/LUT_CorridorB.uasset" 817
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Misc/Reverb_Cellar.uasset" 818
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Textures/T_Bloom_A.uasset" 819
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/Utility/Textures/T_Bokeh_A.uasset" 820
+"../../../../Users/MetalCat/Documents/Unreal Projects/SurvivorScript/Content/SuperGrid/TutorialLevel/StarterTutorial.umap" 821
+"../../../Engine/Content/Maps/Entry_BuiltData.uasset" 822
+"../../../Engine/Content/Maps/Entry.umap" 823
