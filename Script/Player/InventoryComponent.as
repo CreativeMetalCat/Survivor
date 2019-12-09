@@ -7,6 +7,9 @@ struct FItemDefaultInfo
     FName InGameName=n"MissingName";
 
     UPROPERTY(BlueprintReadWrite)
+    UTexture2D Icon;
+
+    UPROPERTY(BlueprintReadWrite)
     FText Description=FText::FromName(n"MissingDescription");
 }
 
