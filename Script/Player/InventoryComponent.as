@@ -83,7 +83,8 @@ class UInventoryComponent:UActorComponent
     UFUNCTION(BlueprintCallable)
     bool AddItem(FItemInfo info)
     {
-       
+        if(info.Amount>0)
+        {
         if(ItemDefaultInfoTable!=nullptr)
         {
            if(DataTable::DoesDataTableRowExist(ItemDefaultInfoTable,info.Name))
@@ -170,23 +171,36 @@ class UInventoryComponent:UActorComponent
 
         return true;
     }
+    return true;
+ }
 
 //Removes specified amount of item from the inventory
     UFUNCTION(BlueprintCallable)
     bool RemoveItem(FItemInfo info)
     {
-        if(Items.Num() > 0)
+        if(Items.Num() > 0 && info.Amount>0)
         {
+            
             int value = 0;
             TArray<int> indeciesToRemove;
             for(int i=0;i<Items.Num();i++)
             {
                 if(Items[i].Name==info.Name)
                 {
-                    indeciesToRemove.Add(i);
-                    value+=Items[i].Amount;
-                    if(value>=info.Amount)
+                    if((info.Amount-value)>Items[i].Amount)
                     {
+                        indeciesToRemove.Add(i);
+                        value+=Items[i].Amount;
+                    }
+                    else
+                    {
+                        Items[i].Amount-=(info.Amount-value);
+                        value+=(info.Amount-value);
+                    }
+                    
+                    if(value>=info.Amount)
+                    {                        
+                        
                         for(int o=0;o<indeciesToRemove.Num();o++)
                         {
                             Items.RemoveAt(indeciesToRemove[o]);
