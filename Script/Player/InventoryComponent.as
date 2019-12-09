@@ -25,13 +25,15 @@ struct FItemInfo
     }
 }
 
+//DO NOT USE THIS CLASS BUT USE IT'S CHILDREN
+//BECAUSE SOME FUNCTIONS HAVE TO BE OVERRIDEN
 class UInventoryComponent:UActorComponent
 {
     UPROPERTY(BlueprintReadWrite)
     TArray<FItemInfo> Items;
 
     UPROPERTY(BlueprintReadWrite)
-    UDataTable ItemDefaultInfoTabel;
+    UDataTable ItemDefaultInfoTable;
 
     UFUNCTION(BlueprintPure)
     TArray<FItemInfo> GetAllItemsByName(FName name)
@@ -69,21 +71,30 @@ class UInventoryComponent:UActorComponent
         return 0;
     }
 
+    //did this way because angel script doesn't support static classes yet
+    //THIS FUNCTION MUST BE OVERRIDEN IN EVERY CHILD CLASS
+    UFUNCTION(BlueprintEvent)
+    FItemDefaultInfo GetDataTableRow(FName name)
+    {
+        PrintError("MISSING FUNCTION OVERRIDE! Name:FItemDefaultInfo GetDataTableRowName() Class:UInventoryComponent");
+        return FItemDefaultInfo();
+    }
+
     UFUNCTION(BlueprintCallable)
     bool AddItem(FItemInfo info)
     {
        
-        if(ItemDefaultInfoTabel!=nullptr)
+        if(ItemDefaultInfoTable!=nullptr)
         {
-           if(DataTable::DoesDataTableRowExist(ItemDefaultInfoTabel,info.Name))
+           if(DataTable::DoesDataTableRowExist(ItemDefaultInfoTable,info.Name))
            {
-              //placeholder
-                int stackAmount = 64;
+
+               int stackAmount = GetDataTableRow(info.Name).MaxAmountPerStack;
               
                if(info.Amount > stackAmount)
                {
                  TArray<FItemInfo> itemsToAdd;
-                 int value=info.Amount;
+                 int value = info.Amount;
                  while((value-stackAmount) > 0)
                  {
                     itemsToAdd.Add(FItemInfo(info.Name,stackAmount));
@@ -119,12 +130,12 @@ class UInventoryComponent:UActorComponent
                  {
                      itemsToAdd.Add(FItemInfo(info.Name,value));
                  }
-                 PrintError("Items.Append(itemsToAdd)");
+                 
                  Items.Append(itemsToAdd);
                }
                else
                {
-                   PrintError("Items.Add(info)");
+                   
                    Items.Add(info);
                }
            }
@@ -160,9 +171,32 @@ class UInventoryComponent:UActorComponent
         return true;
     }
 
-     UFUNCTION(BlueprintCallable)
+//Removes specified amount of item from the inventory
+    UFUNCTION(BlueprintCallable)
     bool RemoveItem(FItemInfo info)
     {
-        return true;
+        if(Items.Num() > 0)
+        {
+            int value = 0;
+            TArray<int> indeciesToRemove;
+            for(int i=0;i<Items.Num();i++)
+            {
+                if(Items[i].Name==info.Name)
+                {
+                    indeciesToRemove.Add(i);
+                    value+=Items[i].Amount;
+                    if(value>=info.Amount)
+                    {
+                        for(int o=0;o<indeciesToRemove.Num();o++)
+                        {
+                            Items.RemoveAt(indeciesToRemove[o]);
+                        }
+                         return true;
+                    }
+                }
+            }
+            return false;         
+        }
+        return false;
     }
 }
