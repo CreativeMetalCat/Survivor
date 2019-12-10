@@ -83,6 +83,12 @@ class UInventoryComponent:UActorComponent
         return FItemDefaultInfo();
     }
 
+     UFUNCTION(BlueprintEvent)
+     void OwnerNotify_ItemAdded(FItemInfo info){}
+
+     UFUNCTION(BlueprintEvent)
+     void OwnerNotify_ItemRemoved(FItemInfo info){}
+
     UFUNCTION(BlueprintCallable)
     bool AddItem(FItemInfo info)
     {
@@ -109,11 +115,12 @@ class UInventoryComponent:UActorComponent
                      itemsToAdd.Add(FItemInfo(info.Name,value));
                  }
                 
+                for(int j=0;j<itemsToAdd.Num();j++){OwnerNotify_ItemAdded(itemsToAdd[j]);}
                  Items.Append(itemsToAdd);
                }
                else
                {
-                  
+                  OwnerNotify_ItemAdded(info);
                    Items.Add(info);
                }
            }
@@ -132,14 +139,16 @@ class UInventoryComponent:UActorComponent
                  }
                  if(value>0)
                  {
+                     
                      itemsToAdd.Add(FItemInfo(info.Name,value));
                  }
                  
+                  for(int j=0;j<itemsToAdd.Num();j++){OwnerNotify_ItemAdded(itemsToAdd[j]);}
                  Items.Append(itemsToAdd);
                }
                else
                {
-                   
+                   OwnerNotify_ItemAdded(info);
                    Items.Add(info);
                }
            }
@@ -161,12 +170,12 @@ class UInventoryComponent:UActorComponent
                  {
                      itemsToAdd.Add(FItemInfo(info.Name,value));
                  }
-                  
+                  for(int j=0;j<itemsToAdd.Num();j++){OwnerNotify_ItemAdded(itemsToAdd[j]);}
                  Items.Append(itemsToAdd);
                }
                else
                {
-                   
+                   OwnerNotify_ItemAdded(info);
                    Items.Add(info);
                }
                return true;
@@ -206,6 +215,7 @@ class UInventoryComponent:UActorComponent
                         
                         for(int o=0;o<indeciesToRemove.Num();o++)
                         {
+                            OwnerNotify_ItemRemoved(Items[indeciesToRemove[o]]);
                             Items.RemoveAt(indeciesToRemove[o]);
                         }
                          return true;
