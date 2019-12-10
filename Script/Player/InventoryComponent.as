@@ -210,7 +210,7 @@ class UInventoryComponent:UActorComponent
                else
                {
                    OwnerNotify_ItemAdded(info);
-                   IItems.Add(FItemInfo(info.Name,valueToAdd));
+                   Items.Add(FItemInfo(info.Name,valueToAdd));
                }
            }
         }
