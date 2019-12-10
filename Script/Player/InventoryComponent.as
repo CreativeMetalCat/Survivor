@@ -89,6 +89,9 @@ class UInventoryComponent:UActorComponent
      UFUNCTION(BlueprintEvent)
      void OwnerNotify_ItemRemoved(FItemInfo info){}
 
+     UFUNCTION(BlueprintEvent)
+     void OwnerNotify_ItemDropped(FItemInfo info){}
+
     UFUNCTION(BlueprintCallable)
     bool AddItem(FItemInfo info)
     {
@@ -100,11 +103,42 @@ class UInventoryComponent:UActorComponent
            {
 
                int stackAmount = GetDataTableRow(info.Name).MaxAmountPerStack;
-              
+              int valueToAdd = info.Amount;
+               for(int i=0;i<Items.Num();i++)
+               {
+                   if(Items[i].Name==info.Name&&Items[i].Amount<stackAmount)
+                   {
+                       
+                       if((stackAmount-Items[i].Amount)<valueToAdd)
+                       {
+                        valueToAdd-=(stackAmount-Items[i].Amount);
+                       
+                         Items[i].Amount+= (stackAmount-Items[i].Amount); 
+                          
+                       }
+                       else if((stackAmount-Items[i].Amount)==valueToAdd)
+                       {
+                         
+                        Items[i].Amount += (stackAmount-Items[i].Amount); 
+                         valueToAdd = 0;
+                         OwnerNotify_ItemAdded(info);
+                         return true;
+                       }
+                       else
+                       {
+                             
+                            Items[i].Amount+= valueToAdd;
+                            valueToAdd=0;
+                            OwnerNotify_ItemAdded(info);
+                            return true;
+                       }
+                   }
+               }
+               
                if(info.Amount > stackAmount)
                {
                  TArray<FItemInfo> itemsToAdd;
-                 int value = info.Amount;
+                 int value = valueToAdd;
                  while((value-stackAmount) > 0)
                  {
                     itemsToAdd.Add(FItemInfo(info.Name,stackAmount));
@@ -112,6 +146,7 @@ class UInventoryComponent:UActorComponent
                  }
                  if(value>0)
                  {
+                     
                      itemsToAdd.Add(FItemInfo(info.Name,value));
                  }
                 
@@ -120,18 +155,44 @@ class UInventoryComponent:UActorComponent
                }
                else
                {
+                   
                   OwnerNotify_ItemAdded(info);
-                   Items.Add(info);
+                   Items.Add(FItemInfo(info.Name,valueToAdd));
                }
            }
            else
            {
                int stackAmount = 64;
-              
+              int valueToAdd = info.Amount;
+               for(int i=0;i<Items.Num();i++)
+               {
+                   if(Items[i].Name==info.Name&&Items[i].Amount<stackAmount)
+                   {
+                       if((stackAmount-Items[i].Amount)<valueToAdd)
+                       {
+                          valueToAdd-=(stackAmount-Items[i].Amount);
+                         Items[i].Amount+= (stackAmount-Items[i].Amount); 
+                       }
+                       else if((stackAmount-Items[i].Amount)==valueToAdd)
+                       {
+                        Items[i].Amount += (stackAmount-Items[i].Amount); 
+                         valueToAdd = 0;
+                         OwnerNotify_ItemAdded(info);
+                         return true;
+                       }
+                       else
+                       {
+                            Items[i].Amount+= valueToAdd;
+                            valueToAdd=0;
+                            OwnerNotify_ItemAdded(info);
+                            return true;
+                       }
+                   }
+               }
                if(info.Amount > stackAmount)
                {
                  TArray<FItemInfo> itemsToAdd;
-                 int value=info.Amount;
+                 int value=valueToAdd;
                  while((value-stackAmount) > 0)
                  {
                     itemsToAdd.Add(FItemInfo(info.Name,stackAmount));
@@ -149,18 +210,43 @@ class UInventoryComponent:UActorComponent
                else
                {
                    OwnerNotify_ItemAdded(info);
-                   Items.Add(info);
+                   IItems.Add(FItemInfo(info.Name,valueToAdd));
                }
            }
         }
         else
         {
                int stackAmount = 64;
-              
+               int valueToAdd = info.Amount;
+               for(int i=0;i<Items.Num();i++)
+               {
+                   if(Items[i].Name==info.Name&&Items[i].Amount<stackAmount)
+                   {
+                       if((stackAmount-Items[i].Amount)<valueToAdd)
+                       {
+                          valueToAdd-=(stackAmount-Items[i].Amount);
+                         Items[i].Amount+= (stackAmount-Items[i].Amount); 
+                       }
+                       else if((stackAmount-Items[i].Amount)==valueToAdd)
+                       {
+                        Items[i].Amount += (stackAmount-Items[i].Amount); 
+                         valueToAdd = 0;
+                         OwnerNotify_ItemAdded(info);
+                         return true;
+                       }
+                       else
+                       {
+                            Items[i].Amount+= valueToAdd;
+                            valueToAdd=0;
+                            OwnerNotify_ItemAdded(info);
+                            return true;
+                       }
+                   }
+               }
                if(info.Amount > stackAmount)
                {
                  TArray<FItemInfo> itemsToAdd;
-                 int value=info.Amount;
+                 int value=valueToAdd;
                  while((value-stackAmount) > 0)
                  {
                     itemsToAdd.Add(FItemInfo(info.Name,stackAmount));
@@ -176,7 +262,7 @@ class UInventoryComponent:UActorComponent
                else
                {
                    OwnerNotify_ItemAdded(info);
-                   Items.Add(info);
+                  Items.Add(FItemInfo(info.Name,valueToAdd));
                }
                return true;
            }
@@ -186,7 +272,7 @@ class UInventoryComponent:UActorComponent
     return true;
  }
 
-//Removes specified amount of item from the inventory
+    //Removes specified amount of item from the inventory
     UFUNCTION(BlueprintCallable)
     bool RemoveItem(FItemInfo info)
     {
@@ -226,4 +312,46 @@ class UInventoryComponent:UActorComponent
         }
         return false;
     }
-}
+
+    //Removes specified amount of item from the inventory
+    UFUNCTION(BlueprintCallable)
+    bool DropItem(FItemInfo info)
+    {
+        if(Items.Num() > 0 && info.Amount>0)
+        {
+            
+            int value = 0;
+            TArray<int> indeciesToRemove;
+            for(int i=0;i<Items.Num();i++)
+            {
+                if(Items[i].Name==info.Name)
+                {
+                    if((info.Amount-value)>=Items[i].Amount)
+                    {
+                        indeciesToRemove.Add(i);
+                        value+=Items[i].Amount;
+                    }
+                    else
+                    {
+                        Items[i].Amount-=(info.Amount-value);
+                        value+=(info.Amount-value);
+                    }
+                    
+                    if(value>=info.Amount)
+                    {                        
+                        
+                        for(int o=0;o<indeciesToRemove.Num();o++)
+                        {
+                            OwnerNotify_ItemDropped(Items[indeciesToRemove[o]]);
+                            Items.RemoveAt(indeciesToRemove[o]);
+                        }
+                         return true;
+                    }
+                }
+            }
+            return false;         
+        }
+        return false;
+    }
+
+};
