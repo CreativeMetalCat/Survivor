@@ -3,13 +3,15 @@
 
 #include "Survivor/Public/Inventory/DroppedItemBase.h"
 
-// Sets default values
+
 ADroppedItemBase::ADroppedItemBase()
 {
- 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
+	PrimaryActorTick.bCanEverTick = false;
 
+	this->info = info;
 }
+
 
 // Called when the game starts or when spawned
 void ADroppedItemBase::BeginPlay()
