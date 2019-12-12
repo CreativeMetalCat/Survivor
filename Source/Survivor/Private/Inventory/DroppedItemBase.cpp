@@ -2,6 +2,7 @@
 
 
 #include "Survivor/Public/Inventory/DroppedItemBase.h"
+#include "Survivor/Public/Inventory/InventoryInterface.h"
 
 
 ADroppedItemBase::ADroppedItemBase()
@@ -17,6 +18,11 @@ ADroppedItemBase::ADroppedItemBase()
 void ADroppedItemBase::BeginPlay()
 {
 	Super::BeginPlay();
+	
+}
+
+void ADroppedItemBase::OnInteraction_Implementation(AActor* interactor, UPrimitiveComponent* interactedComponent)
+{
 	
 }
 

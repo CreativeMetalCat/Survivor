@@ -20,6 +20,8 @@ public:
 	UInventoryComponent();
 
 protected:
+	bool AddItemUsingSize(int StackSize,int valueToAdd,FItemInfo info);
+
 	// Called when the game starts
 	virtual void BeginPlay() override;
 

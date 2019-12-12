@@ -32,4 +32,13 @@ public:
 
 	UFUNCTION(BlueprintNativeEvent)
 		void OwnerNotify_ItemDropped(FItemInfo info);
+
+	UFUNCTION(BlueprintNativeEvent)
+		void AddItem(FItemInfo info);
+
+	UFUNCTION(BlueprintNativeEvent)
+		void RemoveItem(FItemInfo info);
+
+	UFUNCTION(BlueprintNativeEvent)
+		void DropItem(FItemInfo info);
 };

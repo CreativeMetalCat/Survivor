@@ -30,7 +30,7 @@ public:
 	UFUNCTION(BlueprintNativeEvent)
 		void OnInteraction(AActor* interactor, UPrimitiveComponent* interactedComponent);
 
-	void OnInteraction(AActor* interactor, UPrimitiveComponent* interactedComponent)
+	void OnInteraction_Implementation(AActor* interactor, UPrimitiveComponent* interactedComponent);
 
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
