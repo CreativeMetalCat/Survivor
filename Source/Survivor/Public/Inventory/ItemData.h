@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "Engine/UserDefinedStruct.h"
 #include "Engine/Texture2D.h"
+#include "Engine/DataTable.h"
 #include "ItemData.generated.h"
 
 /**
@@ -26,7 +27,7 @@ public:
 };
 
 USTRUCT(BlueprintType)
-struct FDefaultItemInfo
+struct FDefaultItemInfo : public FTableRowBase
 {
     GENERATED_BODY();
 public:
