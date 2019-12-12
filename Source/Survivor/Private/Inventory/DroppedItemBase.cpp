@@ -23,7 +23,14 @@ void ADroppedItemBase::BeginPlay()
 
 void ADroppedItemBase::OnInteraction_Implementation(AActor* interactor, UPrimitiveComponent* interactedComponent)
 {
-	
+	if (GetOwner()->Implements<UInventoryInterface>() && info.Num() > 0)
+	{
+		for (int i = 0; i < info.Num(); i++)
+		{
+			IInventoryInterface::Execute_AddItem(interactor, info[i]);
+		}
+		Destroy();
+	}
 }
 
 // Called every frame

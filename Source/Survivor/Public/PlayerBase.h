@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Camera/CameraComponent.h"
 #include "PlayerBase.generated.h"
 
 UCLASS()
@@ -20,6 +21,15 @@ protected:
 	virtual void BeginPlay() override;
 
 public:	
+	UFUNCTION(BlueprintCallable)
+		void OnUse();
+
+	UFUNCTION(BlueprintImplementableEvent)
+		UCameraComponent* GetCamera();
+
+	UFUNCTION(BlueprintImplementableEvent)
+		FVector GetCameraWorldLocation();
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
