@@ -22,34 +22,6 @@ void APlayerBase::BeginPlay()
 	
 }
 
-void APlayerBase::OnUse()
-{
-	FHitResult hit;
-	if (GetCamera() != nullptr)
-	{
-	
-		GetWorld()->LineTraceSingleByChannel(hit,GetCameraWorldLocation(), GetCameraWorldLocation() + GetCamera()->GetForwardVector() * 500, ECollisionChannel::ECC_Camera);
-		if (hit.bBlockingHit)
-		{
-			if (hit.GetActor()->Implements<UInteractionInterface>() || (Cast<IInteractionInterface>(hit.GetActor()) != nullptr))
-			{
-				
-				IInteractionInterface::Execute_OnInteraction(hit.GetActor(), this, hit.GetComponent());
-			}
-		}
-	}
-	else
-	{
-		GetWorld()->LineTraceSingleByChannel(hit, GetActorLocation(),GetActorLocation() + this->RootComponent->GetForwardVector()* 300, ECollisionChannel::ECC_Camera);
-		if (hit.bBlockingHit)
-		{
-			if (hit.GetActor()->Implements<UInteractionInterface>() || (Cast<IInteractionInterface>(hit.GetActor()) != nullptr))
-			{
-				IInteractionInterface::Execute_OnInteraction(hit.GetActor(), this, hit.GetComponent());
-			}
-		}
-	}
-}
 
 // Called every frame
 void APlayerBase::Tick(float DeltaTime)
@@ -62,7 +34,5 @@ void APlayerBase::Tick(float DeltaTime)
 void APlayerBase::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 {
 	Super::SetupPlayerInputComponent(PlayerInputComponent);
-
-	InputComponent->BindAction("Interact", IE_Pressed, this, &APlayerBase::OnUse);
 }
 

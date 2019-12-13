@@ -8,7 +8,7 @@
 ADroppedItemBase::ADroppedItemBase()
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = false;
+	PrimaryActorTick.bCanEverTick = true;
 
 	this->info = info;
 }
@@ -23,13 +23,16 @@ void ADroppedItemBase::BeginPlay()
 
 void ADroppedItemBase::OnInteraction_Implementation(AActor* interactor, UPrimitiveComponent* interactedComponent)
 {
-	if (GetOwner()->Implements<UInventoryInterface>() && info.Num() > 0)
+	if (interactor != nullptr)
 	{
-		for (int i = 0; i < info.Num(); i++)
+		if (interactor->Implements<UInventoryInterface>() && info.Num() > 0)
 		{
-			IInventoryInterface::Execute_AddItem(interactor, info[i]);
+			for (int i = 0; i < info.Num(); i++)
+			{
+				IInventoryInterface::Execute_AddItem(interactor, info[i]);
+			}
+			Destroy();
 		}
-		Destroy();
 	}
 }
 
