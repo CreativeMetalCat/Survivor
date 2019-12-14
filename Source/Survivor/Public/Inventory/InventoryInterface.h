@@ -41,4 +41,7 @@ public:
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 		void DropItem(FItemInfo info);
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+		void UseItem(FItemInfo info,bool ShouldBeRemovedAfterUse);
 };

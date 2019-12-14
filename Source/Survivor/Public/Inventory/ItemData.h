@@ -11,6 +11,14 @@
 /**
  * 
  */
+UENUM(BlueprintType)
+enum class EItemType :uint8
+{
+    EIT_Resource UMETA(DisplayName = "Resource"),
+    EIT_Food UMETA(DisplayName = "Food")
+};
+
+
 USTRUCT(BlueprintType)
 struct FItemInfo
 {
@@ -21,6 +29,10 @@ public:
 
     UPROPERTY(BlueprintReadWrite, EditAnywhere)
         int Amount = 0;
+
+    //Amount of time item was used. Only needed if FDefaultItemInfo for this item has `bCanBeUsedManyTimes = true`
+    UPROPERTY(BlueprintReadWrite, EditAnywhere)
+        int HowMuchWasUsed = 0;
 
     FItemInfo(FName name, int amount) :Name(name), Amount(amount) {}
     FItemInfo() {}
@@ -42,4 +54,13 @@ public:
 
     UPROPERTY(BlueprintReadWrite)
         FText Description = FText::FromName("MissingDescription");
+
+    UPROPERTY(BlueprintReadWrite, EditAnywhere)
+        EItemType ItemType = EItemType::EIT_Resource;
+
+    UPROPERTY(BlueprintReadWrite, EditAnywhere)
+        bool bCanBeUsedManyTimes = false;
+
+    UPROPERTY(BlueprintReadWrite, EditAnywhere)
+        int HowManyTimesCanBeUsed = 1;
 };

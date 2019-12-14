@@ -112,12 +112,6 @@ int UInventoryComponent::GetAmountOfItemsWithName(FName name)
 	}
 	return 0;
 }
-
-bool UInventoryComponent::HasEnough(FName name, int Amount)
-{
-    return false;
-}
-
 bool UInventoryComponent::AddItem(FItemInfo info)
 {
     if (info.Amount > 0)

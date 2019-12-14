@@ -39,9 +39,6 @@ public:
 	UFUNCTION(BlueprintPure)
 		int GetAmountOfItemsWithName(FName name);
 
-	UFUNCTION(BlueprintPure)
-		bool HasEnough(FName name, int Amount);
-
 	UFUNCTION(BlueprintCallable)
 		bool AddItem(FItemInfo info);
 
