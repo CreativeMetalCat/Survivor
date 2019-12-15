@@ -22,7 +22,7 @@ void UPlayerStatsComponent::BeginPlay()
 	Super::BeginPlay();
 
 	// ...
-	
+    GetWorld()->GetTimerManager().SetTimer(StatsUpdateTimerHandle, this, &UPlayerStatsComponent::UpdateStats, 0.01f, true);
 }
 
 
@@ -38,7 +38,7 @@ void UPlayerStatsComponent::UpdateStats()
     {
         if (!HungerReminderTimerHandle.IsValid())
         {
-            GetWorld()->GetTimerManager().SetTimer(HungerReminderTimerHandle,this, &UPlayerStatsComponent::Hungry,0.01f,true);
+            GetWorld()->GetTimerManager().SetTimer(HungerReminderTimerHandle, this, &UPlayerStatsComponent::Hungry, RemindIntervalTime + 1.f, true);
         }
         Health -= HungerDamage * time;
     }
@@ -52,7 +52,7 @@ void UPlayerStatsComponent::UpdateStats()
     {
         if (!ThirstReminderTimerHandle.IsValid())
         {
-            GetWorld()->GetTimerManager().SetTimer(ThirstReminderTimerHandle, this, &UPlayerStatsComponent::Thirsty, 0.01f, true);
+            GetWorld()->GetTimerManager().SetTimer(ThirstReminderTimerHandle, this, &UPlayerStatsComponent::Thirsty, RemindIntervalTime, true);
         }
         Health -= ThirstDamage * time;
     }

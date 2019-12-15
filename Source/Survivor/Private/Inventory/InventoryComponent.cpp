@@ -157,7 +157,7 @@ bool UInventoryComponent::RemoveItem(FItemInfo info)
         {
             if (Items[i].Name == info.Name)
             {
-                if ((info.Amount - value) > Items[i].Amount)
+                if ((info.Amount - value) >= Items[i].Amount)
                 {
                     indeciesToRemove.Add(i);
                     value += Items[i].Amount;
