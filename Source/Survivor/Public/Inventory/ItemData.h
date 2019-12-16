@@ -15,7 +15,8 @@ UENUM(BlueprintType)
 enum class EItemType :uint8
 {
     EIT_Resource UMETA(DisplayName = "Resource"),
-    EIT_Food UMETA(DisplayName = "Food")
+    EIT_Food UMETA(DisplayName = "Food"),
+    EIT_Tool UMETA(DisplayName = "Tool")
 };
 
 

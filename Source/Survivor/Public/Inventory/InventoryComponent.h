@@ -10,7 +10,7 @@
 #include "InventoryComponent.generated.h"
 
 
-UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
+UCLASS(meta=(BlueprintSpawnableComponent) )
 class SURVIVOR_API UInventoryComponent : public UActorComponent
 {
 	GENERATED_BODY()
@@ -29,6 +29,11 @@ public:
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		TArray<FItemInfo>Items;
+
+		FItemInfo ToolInfo;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		bool bHasTool = false;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		UDataTable* TableWithDefaultItemInfo;
@@ -49,6 +54,20 @@ public:
 	//Removes specified amount of item from the inventory
 	UFUNCTION(BlueprintCallable)
 		bool DropItem(FItemInfo info);
+
+	//Removes specified amount of item from the inventory
+	UFUNCTION(BlueprintCallable)
+		bool RemoveTool(FItemInfo info);
+
+	//Removes specified amount of item from the inventory
+	UFUNCTION(BlueprintCallable)
+		bool DropTool(FItemInfo info);
+
+	UFUNCTION(BlueprintCallable)
+		bool SetToolInfo(FItemInfo info);
+
+	UFUNCTION(BlueprintCallable)
+		FItemInfo GetToolInfo();
 
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;

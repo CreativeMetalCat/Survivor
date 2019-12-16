@@ -173,7 +173,7 @@ bool UInventoryComponent::RemoveItem(FItemInfo info)
 
                     for (int o = 0; o < indeciesToRemove.Num(); o++)
                     {
-                        if (GetOwner()->Implements<UInventoryInterface>() || (Cast<IInventoryInterface>(GetOwner()) != nullptr)) { IInventoryInterface::Execute_OwnerNotify_ItemRemoved(GetOwner(), Items[indeciesToRemove[o]]); }
+                        if (GetOwner()->Implements<UInventoryInterface>() || (Cast<IInventoryInterface>(GetOwner()) != nullptr)) { IInventoryInterface::Execute_OwnerNotify_ItemRemoved(GetOwner(), Items[indeciesToRemove[o]], indeciesToRemove[o]); }
                         Items.RemoveAt(indeciesToRemove[o]);
                     }
                     return true;
@@ -212,7 +212,7 @@ bool UInventoryComponent::DropItem(FItemInfo info)
 
                     for (int o = 0; o < indeciesToRemove.Num(); o++)
                     {
-                        if (GetOwner()->Implements<UInventoryInterface>() || (Cast<IInventoryInterface>(GetOwner()) != nullptr)) { IInventoryInterface::Execute_OwnerNotify_ItemDropped(GetOwner(), Items[indeciesToRemove[o]]); }
+                        if (GetOwner()->Implements<UInventoryInterface>() || (Cast<IInventoryInterface>(GetOwner()) != nullptr)) { IInventoryInterface::Execute_OwnerNotify_ItemDropped(GetOwner(), Items[indeciesToRemove[o]], indeciesToRemove[o]); }
                         Items.RemoveAt(indeciesToRemove[o]);
                     }
                     return true;
@@ -222,6 +222,55 @@ bool UInventoryComponent::DropItem(FItemInfo info)
         return false;
     }
     return false;
+}
+
+bool UInventoryComponent::RemoveTool(FItemInfo info)
+{
+    if (!bHasTool) { return false; }
+    else 
+    {
+        bHasTool = false;
+        if (GetOwner()->Implements<UInventoryInterface>() || (Cast<IInventoryInterface>(GetOwner()) != nullptr))
+        {
+            IInventoryInterface::Execute_OwnerNotify_ToolRemoved(GetOwner(), ToolInfo);
+        }
+        ToolInfo = FItemInfo();
+        return true;
+    }
+}
+
+bool UInventoryComponent::DropTool(FItemInfo info)
+{
+    if (!bHasTool) { return false; }
+    else
+    {
+        bHasTool = false;
+        if (GetOwner()->Implements<UInventoryInterface>() || (Cast<IInventoryInterface>(GetOwner()) != nullptr))
+        {
+            IInventoryInterface::Execute_OwnerNotify_ToolDropped(GetOwner(), ToolInfo);
+        }
+        ToolInfo = FItemInfo();
+        return true;
+    }
+}
+
+bool UInventoryComponent::SetToolInfo(FItemInfo info)
+{
+    if (bHasTool) 
+    {
+        AddItem(ToolInfo);
+        RemoveTool(ToolInfo);
+    }
+    ToolInfo = info;
+    bHasTool = true;
+    
+    return true;
+}
+
+FItemInfo UInventoryComponent::GetToolInfo()
+{
+    if (bHasTool) { return ToolInfo; }
+    else { return FItemInfo(); }
 }
 
 // Called every frame

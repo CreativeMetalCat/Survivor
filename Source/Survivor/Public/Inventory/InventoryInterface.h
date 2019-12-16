@@ -28,10 +28,16 @@ public:
 		void OwnerNotify_ItemAdded(FItemInfo info);
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-		void OwnerNotify_ItemRemoved(FItemInfo info);
+		void OwnerNotify_ItemRemoved(FItemInfo info,int ItemId);
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-		void OwnerNotify_ItemDropped(FItemInfo info);
+		void OwnerNotify_ItemDropped(FItemInfo info, int ItemId);
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+		void OwnerNotify_ToolRemoved(FItemInfo info);
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+		void OwnerNotify_ToolDropped(FItemInfo info);
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 		void AddItem(FItemInfo info);
@@ -42,6 +48,18 @@ public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 		void DropItem(FItemInfo info);
 
+	//filling info is unnessesary here but should be done
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-		void UseItem(FItemInfo info,bool ShouldBeRemovedAfterUse);
+		//filling info is unnessesary here but should be done
+		void RemoveTool(FItemInfo info);
+
+	//filling info is unnessesary here but should be done
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+		//filling info is unnessesary here but should be done
+		void DropTool(FItemInfo info);
+
+	// *itemId* is used only when specific item has to be used, if not it MUST be -1
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+		// *itemId* is used only when specific item has to be used, if not it MUST be -1
+		void UseItem(FItemInfo info, int itemId = -1, bool ShouldBeRemovedAfterUse = false);
 };
