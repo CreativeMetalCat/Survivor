@@ -20,7 +20,7 @@ public:
 	UInventoryComponent();
 
 protected:
-	bool AddItemUsingSize(int StackSize,int valueToAdd,FItemInfo info);
+	bool AddItemUsingSize(int StackSize,int valueToAdd,FItemInfo info, bool PickedUp);
 
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -45,7 +45,7 @@ public:
 		int GetAmountOfItemsWithName(FName name);
 
 	UFUNCTION(BlueprintCallable)
-		bool AddItem(FItemInfo info);
+		bool AddItem(FItemInfo info, bool PickUp);
 
 	//Removes specified amount of item from the inventory
 	UFUNCTION(BlueprintCallable)

@@ -14,7 +14,7 @@ UInventoryComponent::UInventoryComponent()
 }
 
 
-bool UInventoryComponent::AddItemUsingSize(int StackSize, int valueToAdd, FItemInfo info)
+bool UInventoryComponent::AddItemUsingSize(int StackSize, int valueToAdd, FItemInfo info, bool PickedUp)
 {
 
     int stackAmount = StackSize;
@@ -31,14 +31,14 @@ bool UInventoryComponent::AddItemUsingSize(int StackSize, int valueToAdd, FItemI
             {
                 Items[i].Amount += (stackAmount - Items[i].Amount);
                 valueToAdd = 0;
-                if (GetOwner()->Implements<UInventoryInterface>() || (Cast<IInventoryInterface>(GetOwner()) != nullptr)) { IInventoryInterface::Execute_OwnerNotify_ItemAdded(GetOwner(), info); }
+                if (GetOwner()->Implements<UInventoryInterface>() || (Cast<IInventoryInterface>(GetOwner()) != nullptr)) { IInventoryInterface::Execute_OwnerNotify_ItemAdded(GetOwner(), info, PickedUp); }
                 return true;
             }
             else
             {
                 Items[i].Amount += valueToAdd;
                 valueToAdd = 0;
-                if (GetOwner()->Implements<UInventoryInterface>() || (Cast<IInventoryInterface>(GetOwner()) != nullptr)) { IInventoryInterface::Execute_OwnerNotify_ItemAdded(GetOwner(), info); }
+                if (GetOwner()->Implements<UInventoryInterface>() || (Cast<IInventoryInterface>(GetOwner()) != nullptr)) { IInventoryInterface::Execute_OwnerNotify_ItemAdded(GetOwner(), info, PickedUp); }
                 return true;
             }
         }
@@ -58,12 +58,12 @@ bool UInventoryComponent::AddItemUsingSize(int StackSize, int valueToAdd, FItemI
             itemsToAdd.Add(FItemInfo(info.Name, value));
         }
 
-        for (int j = 0; j < itemsToAdd.Num(); j++) { if (GetOwner()->Implements<UInventoryInterface>() || (Cast<IInventoryInterface>(GetOwner()) != nullptr)) { IInventoryInterface::Execute_OwnerNotify_ItemAdded(GetOwner(), itemsToAdd[j]); } }
+        for (int j = 0; j < itemsToAdd.Num(); j++) { if (GetOwner()->Implements<UInventoryInterface>() || (Cast<IInventoryInterface>(GetOwner()) != nullptr)) { IInventoryInterface::Execute_OwnerNotify_ItemAdded(GetOwner(), itemsToAdd[j],PickedUp); } }
         Items.Append(itemsToAdd);
     }
     else
     {
-        if (GetOwner()->Implements<UInventoryInterface>() || (Cast<IInventoryInterface>(GetOwner()) != nullptr)) { IInventoryInterface::Execute_OwnerNotify_ItemAdded(GetOwner(), info); }
+        if (GetOwner()->Implements<UInventoryInterface>() || (Cast<IInventoryInterface>(GetOwner()) != nullptr)) { IInventoryInterface::Execute_OwnerNotify_ItemAdded(GetOwner(), info,PickedUp); }
         Items.Add(FItemInfo(info.Name, valueToAdd));
     }
     return true;
@@ -112,7 +112,7 @@ int UInventoryComponent::GetAmountOfItemsWithName(FName name)
 	}
 	return 0;
 }
-bool UInventoryComponent::AddItem(FItemInfo info)
+bool UInventoryComponent::AddItem(FItemInfo info,bool PickedUp)
 {
     if (info.Amount > 0)
     {
@@ -126,18 +126,18 @@ bool UInventoryComponent::AddItem(FItemInfo info)
                 
                 int stackAmount = row->MaxAmountPerStack;
                 int valueToAdd = info.Amount;
-                AddItemUsingSize(row->MaxAmountPerStack, info.Amount, info);
+                AddItemUsingSize(row->MaxAmountPerStack, info.Amount, info,PickedUp);
             }
             else
             {
-                AddItemUsingSize(64, info.Amount, info);
+                AddItemUsingSize(64, info.Amount, info, PickedUp);
             }
         }
         else
         {
             int stackAmount = 64;
             int valueToAdd = info.Amount;
-            AddItemUsingSize(64, info.Amount, info);
+            AddItemUsingSize(64, info.Amount, info, PickedUp);
             return true;
         }
 
@@ -258,7 +258,7 @@ bool UInventoryComponent::SetToolInfo(FItemInfo info)
 {
     if (bHasTool) 
     {
-        AddItem(ToolInfo);
+        AddItem(ToolInfo,false);
         RemoveTool(ToolInfo);
     }
     ToolInfo = info;

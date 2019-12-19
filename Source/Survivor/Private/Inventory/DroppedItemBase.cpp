@@ -29,7 +29,7 @@ void ADroppedItemBase::OnInteraction_Implementation(AActor* interactor, UPrimiti
 		{
 			for (int i = 0; i < info.Num(); i++)
 			{
-				IInventoryInterface::Execute_AddItem(interactor, info[i]);
+				IInventoryInterface::Execute_AddItem(interactor, info[i],true);
 			}
 			Destroy();
 		}

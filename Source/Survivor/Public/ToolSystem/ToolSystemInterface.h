@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "UObject/Interface.h"
+#include "Survivor/Public/ToolSystem/ToolBase.h"
 #include "ToolSystemInterface.generated.h"
 
 // This class does not need to be modified.
@@ -40,4 +41,7 @@ public:
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 		void OnToolUnHolstered();
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+		AToolBase* GetToolInHand();
 };

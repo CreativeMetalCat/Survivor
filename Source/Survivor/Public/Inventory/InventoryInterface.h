@@ -25,7 +25,7 @@ class SURVIVOR_API IInventoryInterface
 public:
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-		void OwnerNotify_ItemAdded(FItemInfo info);
+		void OwnerNotify_ItemAdded(FItemInfo info, bool PickedUp);
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 		void OwnerNotify_ItemRemoved(FItemInfo info,int ItemId);
@@ -40,7 +40,7 @@ public:
 		void OwnerNotify_ToolDropped(FItemInfo info);
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-		void AddItem(FItemInfo info);
+		void AddItem(FItemInfo info,bool PickedUp);
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 		void RemoveItem(FItemInfo info);
