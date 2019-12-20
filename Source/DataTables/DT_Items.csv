@@ -1,0 +1,9 @@
+---,MaxAmountPerStack,InGameName,Icon,Description,ItemType,bCanBeUsedManyTimes,HowManyTimesCanBeUsed
+Wood,"64","Wood","Texture2D'/Game/CraftResourcesIcons/Textures/Tex_wood_10.Tex_wood_10'","NSLOCTEXT("""", ""9FD444D041C4EBC24520D08AC2875763"", ""MissingDescription"")","EIT_Resource","False","1"
+Stone,"64","Stone","Texture2D'/Game/CraftResourcesIcons/Textures/Tex_stone_01.Tex_stone_01'","NSLOCTEXT("""", ""384883534F4D1304A026849ACAD71B29"", ""MissingDescription"")","EIT_Resource","False","1"
+Copper,"64","Copper Ore","Texture2D'/Game/Textures/TEMP/ItemIcons/copper-ore.copper-ore'","NSLOCTEXT("""", ""D67429264F6E06A013FF04B6E22A7995"", ""MissingDescription"")","EIT_Resource","False","1"
+Iron,"64","Iron Ore","Texture2D'/Game/Textures/TEMP/ItemIcons/iron-ore.iron-ore'","NSLOCTEXT("""", ""5ED82049433BBFF423E2D3906076CF3C"", ""MissingDescription"")","EIT_Resource","False","1"
+Coal,"64","Coal","Texture2D'/Game/Textures/TEMP/ItemIcons/coal.coal'","NSLOCTEXT("""", ""011CE45643674551F7337F828C944E84"", ""MissingDescription"")","EIT_Resource","False","1"
+Apple,"64","Apple","Texture2D'/Game/CraftResourcesIcons/Textures/Tex_seeds_10.Tex_seeds_10'","NSLOCTEXT("""", ""4FCE535342890DD232EBCE830B3344BF"", ""MissingDescription"")","EIT_Food","False","1"
+Axe,"1","Axe","Texture2D'/Game/CraftResourcesIcons/Textures/Tex_tools_09_b.Tex_tools_09_b'","NSLOCTEXT("""", ""59751B114C007C5862AE60B43E302859"", ""MissingDescription"")","EIT_Tool","True","20"
+Plank,"64","Plank","Texture2D'/Game/CraftResourcesIcons/Textures/Tex_wood_11.Tex_wood_11'","NSLOCTEXT("""", ""4EF3140E45D004BB47543C87C3C3D3AF"", ""MissingDescription"")","EIT_Resource","False","1"
