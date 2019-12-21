@@ -6,6 +6,7 @@
 #include "Engine/UserDefinedStruct.h"
 #include "Engine/Texture2D.h"
 #include "Engine/DataTable.h"
+#include "Survivor/Public/Inventory/FuelInfo.h"
 #include "ItemData.generated.h"
 
 /**
@@ -18,6 +19,7 @@ enum class EItemType :uint8
     EIT_Food UMETA(DisplayName = "Food"),
     EIT_Tool UMETA(DisplayName = "Tool")
 };
+
 
 
 USTRUCT(BlueprintType)
@@ -53,7 +55,7 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere)
         UTexture2D* Icon;
 
-    UPROPERTY(BlueprintReadWrite)
+    UPROPERTY(BlueprintReadWrite, EditAnywhere)
         FText Description = FText::FromName("MissingDescription");
 
     UPROPERTY(BlueprintReadWrite, EditAnywhere)
@@ -64,4 +66,7 @@ public:
 
     UPROPERTY(BlueprintReadWrite, EditAnywhere)
         int HowManyTimesCanBeUsed = 1;
+
+    UPROPERTY(BlueprintReadWrite, EditAnywhere)
+        FFuelInfo FuelInfo;
 };
