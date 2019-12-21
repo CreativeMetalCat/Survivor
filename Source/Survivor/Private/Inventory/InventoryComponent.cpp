@@ -231,7 +231,8 @@ bool UInventoryComponent::DropItem(FItemInfo info)
     return false;
 }
 
-bool UInventoryComponent::RemoveTool(FItemInfo info)
+
+bool UInventoryComponent::RemoveTool(FItemInfo info,bool AddToInventory)
 {
     if (!bHasTool) { return false; }
     else 
@@ -240,6 +241,10 @@ bool UInventoryComponent::RemoveTool(FItemInfo info)
         if (GetOwner()->Implements<UInventoryInterface>() || (Cast<IInventoryInterface>(GetOwner()) != nullptr))
         {
             IInventoryInterface::Execute_OwnerNotify_ToolRemoved(GetOwner(), ToolInfo);
+        }
+        if (AddToInventory)
+        {
+            AddItem(ToolInfo, false);
         }
         ToolInfo = FItemInfo();
         return true;
@@ -265,8 +270,8 @@ bool UInventoryComponent::SetToolInfo(FItemInfo info)
 {
     if (bHasTool) 
     {
-        AddItem(ToolInfo,false);
-        RemoveTool(ToolInfo);
+       // AddItem(ToolInfo,false); is now replaced by AddToInventory=true
+        RemoveTool(ToolInfo,true);
     }
     ToolInfo = info;
     bHasTool = true;

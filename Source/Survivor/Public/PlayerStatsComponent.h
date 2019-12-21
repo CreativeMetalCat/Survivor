@@ -63,7 +63,7 @@ public:
         bool bHasHunger = true;
 
     UPROPERTY(BlueprintReadWrite, EditAnywhere)
-        bool bHasThirst = true;
+        bool bHasThirst = false;
 
     UPROPERTY(BlueprintReadWrite, EditAnywhere)
         bool bHasHealth = true;

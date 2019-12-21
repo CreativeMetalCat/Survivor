@@ -29,32 +29,38 @@ void UPlayerStatsComponent::BeginPlay()
 void UPlayerStatsComponent::UpdateStats()
 {
     float time = 0.01f;
-    if (Hunger > 0)
+    if (bHasHunger)
     {
-        Hunger -= time * HungerMultiplier;
-        if (Hunger < 0) { Hunger = 0; }
-    }
-    else
-    {
-        if (!HungerReminderTimerHandle.IsValid())
+        if (Hunger > 0)
         {
-            GetWorld()->GetTimerManager().SetTimer(HungerReminderTimerHandle, this, &UPlayerStatsComponent::Hungry, RemindIntervalTime + 1.f, true);
+            Hunger -= time * HungerMultiplier;
+            if (Hunger < 0) { Hunger = 0; }
         }
-        Health -= HungerDamage * time;
+        else
+        {
+            if (!HungerReminderTimerHandle.IsValid())
+            {
+                GetWorld()->GetTimerManager().SetTimer(HungerReminderTimerHandle, this, &UPlayerStatsComponent::Hungry, RemindIntervalTime + 1.f, true);
+            }
+            Health -= HungerDamage * time;
+        }
     }
 
-    if (Thirst > 0)
+    if (bHasThirst)
     {
-        Thirst -= time * ThirstMultiplier;
-        if (Thirst < 0) { Thirst = 0; }
-    }
-    else
-    {
-        if (!ThirstReminderTimerHandle.IsValid())
+        if (Thirst > 0)
         {
-            GetWorld()->GetTimerManager().SetTimer(ThirstReminderTimerHandle, this, &UPlayerStatsComponent::Thirsty, RemindIntervalTime, true);
+            Thirst -= time * ThirstMultiplier;
+            if (Thirst < 0) { Thirst = 0; }
         }
-        Health -= ThirstDamage * time;
+        else
+        {
+            if (!ThirstReminderTimerHandle.IsValid())
+            {
+                GetWorld()->GetTimerManager().SetTimer(ThirstReminderTimerHandle, this, &UPlayerStatsComponent::Thirsty, RemindIntervalTime, true);
+            }
+            Health -= ThirstDamage * time;
+        }
     }
 
     if (Health <= 0)

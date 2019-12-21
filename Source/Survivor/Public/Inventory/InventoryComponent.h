@@ -20,7 +20,7 @@ public:
 	UInventoryComponent();
 
 protected:
-	bool AddItemUsingSize(int StackSize,int valueToAdd,FItemInfo info, bool PickedUp);
+	bool AddItemUsingSize(int StackSize, int valueToAdd, FItemInfo info, bool PickedUp);
 
 	// Called when the game starts
 	virtual void BeginPlay() override;
@@ -30,7 +30,7 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		TArray<FItemInfo>Items;
 
-		FItemInfo ToolInfo;
+	FItemInfo ToolInfo;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		bool bHasTool = false;
@@ -48,8 +48,9 @@ public:
 		bool AddItem(FItemInfo info, bool PickUp);
 
 	//Removes specified amount of item from the inventory
+	//AddToInventory=true if not removed completly
 	UFUNCTION(BlueprintCallable)
-		bool RemoveItem(FItemInfo info);
+		bool RemoveItem(FItemInfo info/*if not removed completly*/);
 
 	//Removes specified amount of item from the inventory
 	UFUNCTION(BlueprintCallable)
@@ -57,7 +58,9 @@ public:
 
 	//Removes specified amount of item from the inventory
 	UFUNCTION(BlueprintCallable)
-		bool RemoveTool(FItemInfo info);
+		//Removes specified amount of item from the inventory
+		//AddToInventory=true if not removed completly
+		bool RemoveTool(FItemInfo info, bool AddToInventory);
 
 	//Removes specified amount of item from the inventory
 	UFUNCTION(BlueprintCallable)

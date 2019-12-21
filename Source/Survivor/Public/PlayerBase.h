@@ -28,6 +28,32 @@ public:
 	UFUNCTION(BlueprintImplementableEvent)
 		FVector GetCameraWorldLocation();
 
+	UFUNCTION(BlueprintCallable)
+		void StartSpinting();
+
+	UFUNCTION(BlueprintCallable)
+		void StopSpinting();
+
+	UFUNCTION(BlueprintCallable)
+		void StartCrouch();
+
+	UFUNCTION(BlueprintCallable)
+		void StopCrouch();
+
+	UFUNCTION(BlueprintNativeEvent,BlueprintCallable)
+		bool CanSprint();
+
+	bool CanSprint_Implementation();
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		bool bIsSprinting = false;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		float DefaultWalkSpeed = 475.f;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		float SprintSpeed = 900.f;
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
