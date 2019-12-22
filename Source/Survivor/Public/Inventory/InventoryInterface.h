@@ -40,13 +40,13 @@ public:
 		void OwnerNotify_ToolDropped(FItemInfo info);
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-		void AddItem(FItemInfo info,bool PickedUp);
+		bool AddItem(FItemInfo info,bool PickedUp);
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-		void RemoveItem(FItemInfo info);
+		bool RemoveItem(FItemInfo info);
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
-		void DropItem(FItemInfo info);
+		bool DropItem(FItemInfo info);
 
 	//filling info is unnessesary here but should be done
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
