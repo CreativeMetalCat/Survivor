@@ -15,7 +15,7 @@ class SURVIVOR_API ABushBase : public ADroppedItemBase
 {
     GENERATED_BODY()
 private:
-    ABushBase();
+    ABushBase(const FObjectInitializer& OI);
 protected:
     bool bDead = false;
 
@@ -52,6 +52,13 @@ public:
 
     UFUNCTION(BlueprintCallable)
         void FinishRegrowing();
+
+    //To avoid issues with BeginPlay() place everything connected to mesh setup here
+    UFUNCTION(BlueprintCallable, BlueprintNativeEvent)
+        //To avoid issues with BeginPlay() place everything connected to mesh setup here
+        void SetupModel();
+
+    void SetupModel_Implementation(){}
 
     void BeginPlay()override;
 

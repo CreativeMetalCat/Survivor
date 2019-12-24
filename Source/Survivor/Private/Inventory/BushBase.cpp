@@ -6,20 +6,20 @@
 #include "Survivor/Public/Inventory/InventoryInterface.h"
 #include "TimerManager.h"
 
-ABushBase::ABushBase()
+ABushBase::ABushBase(const FObjectInitializer& OI)
 {
 	// Set this actor to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = false;
 
-	BushMesh = CreateDefaultSubobject<UStaticMeshComponent>(TEXT("BushMesh"));
+	BushMesh = OI.CreateDefaultSubobject<UStaticMeshComponent>(this,TEXT("BushMesh"));
 	this->SetRootComponent(BushMesh);
 
+	
 	CollisionBox = CreateDefaultSubobject<UBoxComponent>(TEXT("CollisionBox"));
 	CollisionBox->SetBoxExtent(FVector(32.f, 32.f, 48.f));
 	CollisionBox->SetCollisionResponseToChannel(ECollisionChannel::ECC_Camera, ECollisionResponse::ECR_Block);
 	CollisionBox->SetCollisionResponseToChannel(ECollisionChannel::ECC_Visibility, ECollisionResponse::ECR_Block);
-	CollisionBox->RelativeLocation = FVector(0, 0, 0);
-	
+	CollisionBox->SetupAttachment(BushMesh);
 }
 
 void ABushBase::Update()
@@ -78,6 +78,8 @@ void ABushBase::FinishRegrowing()
 void ABushBase::BeginPlay()
 {
 	DefaultInfo = info;
+	/*CollisionBox->SetWorldLocation(GetActorLocation() + FVector(0, 0, 60));*/
+	SetupModel();
 }
 
 void ABushBase::OnInteraction_Implementation(AActor* interactor, UPrimitiveComponent* interactedComponent)
