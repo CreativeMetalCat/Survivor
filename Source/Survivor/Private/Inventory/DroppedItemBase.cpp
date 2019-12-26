@@ -36,6 +36,26 @@ void ADroppedItemBase::OnInteraction_Implementation(AActor* interactor, UPrimiti
 	}
 }
 
+FInteractibleActorData ADroppedItemBase::GetDataFromActor_Implementation(bool& HasData)
+{
+	if (info.Num() > 0)
+	{
+		HasData = true;
+		FString itemNames;
+		for (int i = 0; i < info.Num(); i++)
+		{
+			itemNames.Append(FString(info[i].Name.ToString() + " x " + FString::FromInt(info[i].Amount) + "\n"));
+		}
+		return FInteractibleActorData(FText::FromString(itemNames), FText());
+	}
+	else
+	{
+		HasData = false;
+		return FInteractibleActorData();
+	}
+
+}
+
 // Called every frame
 void ADroppedItemBase::Tick(float DeltaTime)
 {

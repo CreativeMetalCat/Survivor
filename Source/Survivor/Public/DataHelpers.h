@@ -21,3 +21,20 @@ public:
 	FLineData() {}
 	FLineData(FVector Start, FVector End) :Start(Start), End(End) {}
 };
+
+
+USTRUCT(BlueprintType)
+struct FInteractibleActorData
+{
+	GENERATED_BODY()
+public:
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		FText Name;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		FText AdditionalInfo;
+
+	FInteractibleActorData() {}
+	FInteractibleActorData(FText Name, FText AdditionalInfo) :Name(Name), AdditionalInfo(AdditionalInfo) {}
+};

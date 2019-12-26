@@ -32,6 +32,11 @@ public:
 
 	void OnInteraction_Implementation(AActor* interactor, UPrimitiveComponent* interactedComponent);
 
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+		FInteractibleActorData GetDataFromActor(bool& HasData);
+
+	FInteractibleActorData GetDataFromActor_Implementation(bool& HasData);
+
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 

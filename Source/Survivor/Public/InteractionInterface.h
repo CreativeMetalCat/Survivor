@@ -30,4 +30,7 @@ public:
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 		FLineData GetForwardVector();
 
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+		FInteractibleActorData GetDataFromActor(bool &HasData);
+
 };
