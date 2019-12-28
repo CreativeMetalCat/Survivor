@@ -49,7 +49,7 @@ public:
         float MaxThirst = 100.f;
 
     UPROPERTY(BlueprintReadWrite, EditAnywhere)
-        float HungerMultiplier = 1;
+        float HungerMultiplier = 0.3f;
 
     UPROPERTY(BlueprintReadWrite, EditAnywhere)
         float ThirstMultiplier = 1;
