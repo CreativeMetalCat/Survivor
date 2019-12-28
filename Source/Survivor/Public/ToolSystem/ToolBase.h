@@ -7,6 +7,14 @@
 #include "Engine/StaticMesh.h"
 #include "ToolBase.generated.h"
 
+UENUM(BlueprintType)
+enum class EToolUseAnimType :uint8
+{
+	ETUAT_None UMETA(DisplayName = "None"),
+	ETUAT_SwingLow UMETA(DisplayName = "SwingLow"),
+	ETUAT_SwingHigh UMETA(DisplayName = "SwingHigh")
+};
+
 UCLASS()
 class SURVIVOR_API AToolBase : public AActor
 {

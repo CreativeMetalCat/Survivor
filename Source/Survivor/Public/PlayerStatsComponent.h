@@ -43,10 +43,16 @@ public:
         float Thirst = 100.f;
 
     UPROPERTY(BlueprintReadWrite, EditAnywhere)
-        int HungerMultiplier = 1;
+        float MaxHunger = 100.f;
 
     UPROPERTY(BlueprintReadWrite, EditAnywhere)
-        int ThirstMultiplier = 1;
+        float MaxThirst = 100.f;
+
+    UPROPERTY(BlueprintReadWrite, EditAnywhere)
+        float HungerMultiplier = 1;
+
+    UPROPERTY(BlueprintReadWrite, EditAnywhere)
+        float ThirstMultiplier = 1;
 
     //Damage that is applied to health when Thirst=0.f
     UPROPERTY(BlueprintReadWrite, EditAnywhere)

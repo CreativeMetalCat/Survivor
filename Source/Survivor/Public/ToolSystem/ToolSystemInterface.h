@@ -14,6 +14,7 @@ class UToolSystemInterface : public UInterface
 	GENERATED_BODY()
 };
 
+
 /**
  * 
  */
@@ -44,4 +45,7 @@ public:
 
 	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
 		AToolBase* GetToolInHand();
+
+	UFUNCTION(BlueprintNativeEvent, BlueprintCallable)
+		EToolUseAnimType GetToolUseAnimType();
 };
