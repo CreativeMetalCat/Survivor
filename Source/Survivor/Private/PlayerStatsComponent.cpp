@@ -33,6 +33,10 @@ void UPlayerStatsComponent::UpdateStats()
     {
         if (Hunger > 0)
         {
+            if (GetWorld()->GetTimerManager().IsTimerActive(HungerReminderTimerHandle) || HungerReminderTimerHandle.IsValid())
+            {
+                HungerReminderTimerHandle.Invalidate();
+            }
             Hunger -= time * HungerMultiplier;
             if (Hunger < 0) { Hunger = 0; }
         }
@@ -50,6 +54,10 @@ void UPlayerStatsComponent::UpdateStats()
     {
         if (Thirst > 0)
         {
+            if (GetWorld()->GetTimerManager().IsTimerActive(ThirstReminderTimerHandle) || ThirstReminderTimerHandle.IsValid())
+            {
+                ThirstReminderTimerHandle.Invalidate();
+            }
             Thirst -= time * ThirstMultiplier;
             if (Thirst < 0) { Thirst = 0; }
         }
