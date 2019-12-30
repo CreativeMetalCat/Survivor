@@ -42,10 +42,10 @@ public:
 		TArray<AActor*>ConnectedActors;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		TSubclassOf<AActor> BuildingClass;
+		TSubclassOf<AActor> BuildingClass=AActor::StaticClass();
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
-		TSubclassOf<UElectricityConsumerComponent> ConsumerClass;
+		TSubclassOf<UElectricityConsumerComponent> ConsumerClass = UElectricityConsumerComponent::StaticClass();
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		float UpdateTime=0.1f;

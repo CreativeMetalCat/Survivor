@@ -88,6 +88,15 @@ void UElectricityGeneratorComponent::Update()
 				GEngine->AddOnScreenDebugMessage(-1, UpdateTime, FColor::Red, FVector::Distance(Consumers[i]->GetActorLocation(), GetOwner()->GetActorLocation()) <= Range? TEXT("Close Enough") : FString("Too far away!").Append(FString::FromInt(FVector::Distance(Consumers[i]->GetActorLocation(), GetOwner()->GetActorLocation()))));
 			}*/
 		}
+		for (int i = 0; i < ConnectedActors.Num(); i++)
+		{
+			if (ConnectedActors[i] == nullptr || !ConnectedActors[i]->IsValidLowLevel()|| ConnectedActors[i]->IsPendingKill())
+			{
+				ActorsToDisconnect.Add(ConnectedActors[i]);
+				ShouldUpdate = true;
+				
+			}
+		}
 		if (ActorsToDisconnect.Num() > 0)
 		{
 			ShouldUpdate = true;
