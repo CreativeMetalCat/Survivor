@@ -50,6 +50,12 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		float UpdateTime=0.1f;
 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = Power)
+		float MaxPowerOutput = 100.f;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = Power)
+		float CurrentPowerOutput = 0.f;
+
 	UFUNCTION(BlueprintCallable)
 		void Update();
 

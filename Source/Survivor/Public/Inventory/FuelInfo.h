@@ -24,4 +24,7 @@ public:
 
     UPROPERTY(BlueprintReadWrite, EditAnywhere)
         float MaxBurnTime = 5.f;
+
+    UPROPERTY(BlueprintReadWrite, EditAnywhere)
+        float FuelEfficiency = 1.f;
 };
