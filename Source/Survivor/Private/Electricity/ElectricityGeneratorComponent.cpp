@@ -49,6 +49,25 @@ void UElectricityGeneratorComponent::DisconnectActor(AActor* actor)
 	ConnectedActors.Remove(actor);
 }
 
+void UElectricityGeneratorComponent::UpdatePower()
+{
+	if (bHasFuel) 
+	{	
+		CurrentPowerOutput = Fuel.FuelEfficiency * ItemMass;
+		if (CurrentPowerOutput > MaxPowerOutput) { CurrentPowerOutput = MaxPowerOutput; }
+		BurnedFuelTime += UpdateTime;
+		if (BurnedFuelTime >= Fuel.MaxBurnTime)
+		{
+			OnFuelEnded.Broadcast();
+			CurrentPowerOutput = 0;
+			BurnedFuelTime = 0;
+			bHasFuel = false;
+			ClearFuelData();
+			return;
+		}
+	}
+}
+
 
 void UElectricityGeneratorComponent::Update()
 {
@@ -114,6 +133,23 @@ void UElectricityGeneratorComponent::Update()
 	{
 		GEngine->AddOnScreenDebugMessage(-1, UpdateTime, FColor::Red, TEXT("No consumers!"));
 	}
+	UpdatePower();
+}
+
+void UElectricityGeneratorComponent::SetFuelData(bool HasFuel, FFuelInfo FuelInfo, int newAmountOfFuel, float newItemMass)
+{
+	bHasFuel = HasFuel;
+	this->Fuel = FuelInfo;
+	this->AmountOfFuel = newAmountOfFuel;
+	this->ItemMass = newItemMass;
+}
+
+void UElectricityGeneratorComponent::ClearFuelData()
+{
+	bHasFuel = false;
+	this->Fuel = FFuelInfo();
+	this->AmountOfFuel = 0;
+	this->ItemMass = 0;
 }
 
 // Called every frame

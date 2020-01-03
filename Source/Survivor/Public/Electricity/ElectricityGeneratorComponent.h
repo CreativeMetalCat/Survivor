@@ -5,9 +5,13 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "Survivor/Public/Electricity/ElectricityConsumerComponent.h"
+#include "Survivor/Public/Inventory/FuelInfo.h"
 #include "ElectricityGeneratorComponent.generated.h"
 
+
 DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnConnectedActorsUpdate);
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnFuelEnded);
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class SURVIVOR_API UElectricityGeneratorComponent : public UActorComponent
@@ -26,11 +30,15 @@ protected:
 
 	void DisconnectActor(AActor* actor);
 
+	void UpdatePower();
+
 public:	
 
 	UPROPERTY(BlueprintAssignable)
 		FOnConnectedActorsUpdate OnConnectedActorsUpdate;
 
+	UPROPERTY(BlueprintAssignable)
+		FOnFuelEnded OnFuelEnded;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		bool bGenerateWires = false;
@@ -56,8 +64,31 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = Power)
 		float CurrentPowerOutput = 0.f;
 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = Fuel)
+		 FFuelInfo Fuel;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = Fuel)
+		bool bHasFuel = false;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = Fuel)
+		float BurnedFuelTime = 0.f;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = Fuel)
+		int AmountOfFuel = 1;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere, Category = Fuel)
+		float ItemMass = 1.f;
+
 	UFUNCTION(BlueprintCallable)
 		void Update();
+
+	UFUNCTION(BlueprintCallable)
+		void SetFuelData(bool HasFuel, FFuelInfo FuelInfo, int newAmountOfFuel, float newItemMass);
+
+	UFUNCTION(BlueprintCallable)
+		void ClearFuelData();
+
+	
 
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;

@@ -67,6 +67,12 @@ public:
     UPROPERTY(BlueprintReadWrite, EditAnywhere)
         int HowManyTimesCanBeUsed = 1;
 
+    //in Kilogramms
+    UPROPERTY(BlueprintReadWrite, EditAnywhere)
+        //in Kilogramms
+        float Mass = 1.f;
+
+
     UPROPERTY(BlueprintReadWrite, EditAnywhere)
         FFuelInfo FuelInfo;
 };
