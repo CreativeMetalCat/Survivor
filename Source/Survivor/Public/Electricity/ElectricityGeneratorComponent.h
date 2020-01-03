@@ -32,6 +32,8 @@ protected:
 
 	void UpdatePower();
 
+	float CalculateAmountOfPowerForConsumer(int id);
+
 public:	
 
 	UPROPERTY(BlueprintAssignable)

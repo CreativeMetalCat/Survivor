@@ -56,6 +56,17 @@ void UElectricityGeneratorComponent::UpdatePower()
 		CurrentPowerOutput = Fuel.FuelEfficiency * ItemMass;
 		if (CurrentPowerOutput > MaxPowerOutput) { CurrentPowerOutput = MaxPowerOutput; }
 		BurnedFuelTime += UpdateTime;
+		if (ConnectedActors.Num() > 0)
+		{
+			for (int i = 0; i < ConnectedActors.Num(); i++)
+			{
+				if (Cast<UElectricityConsumerComponent>(ConnectedActors[i]->GetComponentByClass(ConsumerClass)) != nullptr)
+				{
+					float power = CalculateAmountOfPowerForConsumer(i);
+					Cast<UElectricityConsumerComponent>(ConnectedActors[i]->GetComponentByClass(ConsumerClass))->CurrentAmountOfPower = (power >= Cast<UElectricityConsumerComponent>(ConnectedActors[i]->GetComponentByClass(ConsumerClass))->NeededAmountOfPower) ? Cast<UElectricityConsumerComponent>(ConnectedActors[i]->GetComponentByClass(ConsumerClass))->NeededAmountOfPower : power;
+				}
+			}
+		}
 		if (BurnedFuelTime >= Fuel.MaxBurnTime)
 		{
 			OnFuelEnded.Broadcast();
@@ -65,6 +76,46 @@ void UElectricityGeneratorComponent::UpdatePower()
 			ClearFuelData();
 			return;
 		}
+	}
+}
+
+float UElectricityGeneratorComponent::CalculateAmountOfPowerForConsumer(int id)
+{
+	if (ConnectedActors.Num() > 0)
+	{
+		if (ConnectedActors.IsValidIndex(id))
+		{
+			float Result = CurrentPowerOutput;
+			for (int i = 0; i <= id; i++)
+			{
+				if (Cast<UElectricityConsumerComponent>(ConnectedActors[i]->GetComponentByClass(ConsumerClass)) != nullptr)
+				{
+					if (Result < Cast<UElectricityConsumerComponent>(ConnectedActors[i]->GetComponentByClass(ConsumerClass))->NeededAmountOfPower&& Result>0 && i == id)
+					{
+						return Result;
+					}
+					else
+					{
+						Result -= Cast<UElectricityConsumerComponent>(ConnectedActors[i]->GetComponentByClass(ConsumerClass))->NeededAmountOfPower;
+						if (Result < 0)
+						{
+
+							Result = 0.f;
+							return Result;
+						}
+					}
+				}
+			}
+			return Result;
+		}
+		else
+		{
+			return 0.f;
+		}
+	}
+	else
+	{
+		return 0.0f;
 	}
 }
 

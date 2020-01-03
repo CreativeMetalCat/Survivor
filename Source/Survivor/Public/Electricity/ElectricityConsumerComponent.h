@@ -25,6 +25,13 @@ public:
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		bool bHasElectricity = false;
 
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		float CurrentAmountOfPower=0.f;
+
+	UPROPERTY(BlueprintReadWrite, EditAnywhere)
+		float NeededAmountOfPower = 10.f;
+
+
 	// Called every frame
 	virtual void TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction) override;
 
