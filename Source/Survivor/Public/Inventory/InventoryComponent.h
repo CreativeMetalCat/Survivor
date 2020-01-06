@@ -21,6 +21,8 @@ DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnItemDropped, FItemInfo, info, in
 
 DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnToolDropped, FItemInfo, info);
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE(FOnInventoryUIUpdateRequested);
+
 UCLASS(meta=(BlueprintSpawnableComponent) )
 class SURVIVOR_API UInventoryComponent : public UActorComponent
 {
@@ -37,6 +39,10 @@ protected:
 	virtual void BeginPlay() override;
 
 public:
+
+	UPROPERTY(BlueprintAssignable)
+		FOnInventoryUIUpdateRequested OnInventoryUIUpdateRequested;
+
 	UPROPERTY(BlueprintAssignable)
 		FOnItemAdded OnItemAdded;
 

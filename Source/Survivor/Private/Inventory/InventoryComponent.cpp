@@ -73,6 +73,7 @@ bool UInventoryComponent::AddItemUsingSize(int StackSize, int valueToAdd, FItemI
         OnItemAdded.Broadcast(info, PickedUp);
         Items.Add(FItemInfo(info.Name, valueToAdd));
     }
+    OnInventoryUIUpdateRequested.Broadcast();
     return true;
 }
 
