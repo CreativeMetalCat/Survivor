@@ -11,7 +11,5 @@ public class SurvivorTarget : TargetRules
 		DefaultBuildSettings = BuildSettingsVersion.V2;
 
 		ExtraModuleNames.AddRange( new string[] { "Survivor" } );
-
-		ExtraModuleNames.AddRange(new string[] { "CableComponent" });
 	}
 }

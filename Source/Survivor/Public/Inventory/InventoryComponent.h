@@ -9,6 +9,17 @@
 #include "Engine/DataTable.h"
 #include "InventoryComponent.generated.h"
 
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnItemAdded, FItemInfo, info, bool, PickedUp);
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnItemRemoved, FItemInfo, info, int, ItemId);
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnToolAdded,FItemInfo, info);
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnToolRemoved, FItemInfo, info);
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_TwoParams(FOnItemDropped, FItemInfo, info, int, ItemId);
+
+DECLARE_DYNAMIC_MULTICAST_DELEGATE_OneParam(FOnToolDropped, FItemInfo, info);
 
 UCLASS(meta=(BlueprintSpawnableComponent) )
 class SURVIVOR_API UInventoryComponent : public UActorComponent
@@ -26,6 +37,23 @@ protected:
 	virtual void BeginPlay() override;
 
 public:
+	UPROPERTY(BlueprintAssignable)
+		FOnItemAdded OnItemAdded;
+
+	UPROPERTY(BlueprintAssignable)
+		FOnItemRemoved OnItemRemoved;
+
+	UPROPERTY(BlueprintAssignable)
+		FOnToolAdded OnToolAdded;
+
+	UPROPERTY(BlueprintAssignable)
+		FOnToolRemoved OnToolRemoved;
+
+	UPROPERTY(BlueprintAssignable)
+		FOnToolDropped OnToolDropped;
+
+	UPROPERTY(BlueprintAssignable)
+		FOnItemDropped OnItemDropped;
 
 	UPROPERTY(BlueprintReadWrite, EditAnywhere)
 		TArray<FItemInfo>Items;

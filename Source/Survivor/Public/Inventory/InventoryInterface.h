@@ -15,7 +15,7 @@ class UInventoryInterface : public UInterface
 };
 
 /**
- * 
+ *Deprecated
  */
 class SURVIVOR_API IInventoryInterface
 {
